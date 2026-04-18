@@ -1,0 +1,8 @@
+# KiCad Files
+.history/
+fp-info-cache
+\#*
+~*
+*.kicad_prl
+*-backups/
+*.bak

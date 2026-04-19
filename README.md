@@ -10,6 +10,35 @@ The G2 Nano is a high-performance microcontroller development board combining a 
 
 * All custom footprints, symbols, and models are located in the `kicad/project_lib/` directory. The same directory houses the schematic page template.
 
+## Features
+* 1 GHz Arm Cortex-M7 Microprocessor
+* Double-Precision Floating Point Unit
+* 2 MiB RAM (512 KiB Tightly Coupled)
+* 16 MiB QSPI Flash Memory
+* Dual-band Wi-Fi
+* 6-Axis IMU (3-Axis Accelerometer; 3-Axis Gyroscope)
+* 3-Axis Magnetometer
+* Closed-Loop Motion Controller <!-- TODO: How many axes? which part (provide link)? -->
+* USB 2.0 Host (Requires 4-Pin Adapter Such as the [StarTech USBMBADAPT](https://www.digikey.com/en/products/detail/startech-com/USBMBADAPT/21398325))
+* Real-Time Clock (Optionally powered with a coin cell battery)
+* Built-In Hardware Debugger
+* Cryptographic Acceleration (Including Random Number Generation)
+* Two 32-Channel DMA Engines
+
+<!--
+The following features are planned, but their implementation is not yet certain:
+
+* Micro SD Card Socket
+* xxx Digital GPIO
+* xxx Independent CAN/CAN-FD Bus Interfaces
+* Common Serial Interfaces (xxx UART; xxx SPI; xxx I2C)
+* xxx Analog Inputs
+* 12-Bit DAC
+* xxx Analog Comparators
+* S/PDIF Input and Output (xxx)
+* xxx I2S/TDM Interfaces
+-->
+
 ## Using This Project
 *This section is an informal summary of the license. For the full terms, see the `LICENSE.txt` file.*
 

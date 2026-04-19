@@ -1,0 +1,36 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "3f798b8d-1faf-4d70-b633-9f8fc8b8aa42")
+	(paper "A4")
+	(title_block
+		(title "DEV-G2-NANO")
+		(date "Apr 18, 2026")
+		(rev "A")
+		(comment 1 "Ryan Stracener")
+		(comment 2 "© 2026, Theta Machines LLC.")
+	)
+	(lib_symbols)
+	(text_box "Important Notice and Disclaimer\n=======================================================================================\nThe information contained in this source is provided exclusively for your convenience. These resources are subject to change without notice. Theta Machines LLC disclaims all liability arising from the information contained herein and its use. You are solely responsible for (1) designing and thoroughly testing your solution and (2) ensuring your solution meets applicable standards and requirements.\n\nThis source describes Open Hardware and is licensed under the CERN-OHL-P-2.0. A copy of this license can be found at https://ohwr.org/cern_ohl_p_v2.txt. No license is granted to any other intellectual property right held by Theta Machines LLC or third parties.\n\n\n\nTrademarks\n=======================================================================================\nAll trademarks are the property of their respective owners.\n\nAll company, brand, and product names used in this document are for identification purposes only. Use of these names does not imply affiliation with the respective owners.\n"
+		(exclude_from_sim no)
+		(at 39.37 41.91 0)
+		(size 182.88 83.2673)
+		(margins 1.8749 1.8749 1.8749 1.8749)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 2.5 2.5)
+			)
+			(justify left top)
+		)
+		(uuid "6d2e6eb1-04f6-4614-80fb-2b3aef601677")
+	)
+)

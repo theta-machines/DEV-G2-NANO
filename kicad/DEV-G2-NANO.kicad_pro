@@ -8,7 +8,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "A"
+      "sch_revision": "0.1"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -416,7 +416,7 @@
         "uuid": "b6656e4d-fdee-4b90-a905-7068c060191f"
       }
     ],
-    "used_designators": "U3-4,D3-4,L2,#PWR34-62,C19-30,J3-4,R17-32,Y3-4",
+    "used_designators": "#PWR55-58,C30,R21-32,U4",
     "variants": []
   },
   "sheets": [
@@ -425,8 +425,16 @@
       "DEV-G2-NANO"
     ],
     [
-      "db6bb470-ca2c-4894-8d18-32577a586f31",
-      "Disclaimer"
+      "6621ad73-535c-4bcc-996a-e9110ae66d56",
+      "User IO"
+    ],
+    [
+      "45e1da5b-d52f-4e94-b563-4995febadb51",
+      "Configuration"
+    ],
+    [
+      "c9cb6ef2-a54b-4b8b-8190-a2fee5ca7114",
+      "Power"
     ]
   ],
   "text_variables": {},

@@ -712,7 +712,43 @@
 				)
 			)
 			(pin unspecified line
-				(at -5.08 -158.75 0)
+				(at 73.66 -36.83 180)
+				(length 5.08)
+				(name "GPIO_DISP_B1_11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 73.66 -29.21 180)
+				(length 5.08)
+				(name "GPIO_DISP_B1_08"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 73.66 -158.75 180)
 				(length 5.08)
 				(name "GPIO_SD_B1_05"
 					(effects
@@ -768,7 +804,25 @@
 				)
 			)
 			(pin unspecified line
-				(at -5.08 -156.21 0)
+				(at 73.66 -34.29 180)
+				(length 5.08)
+				(name "GPIO_DISP_B1_10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 73.66 -156.21 180)
 				(length 5.08)
 				(name "GPIO_SD_B1_04"
 					(effects
@@ -786,7 +840,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -5.08 -161.29 0)
+				(at 73.66 -161.29 180)
 				(length 5.08)
 				(name "GPIO_SD_B1_00"
 					(effects
@@ -804,7 +858,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -5.08 -173.99 0)
+				(at 73.66 -173.99 180)
 				(length 5.08)
 				(name "GPIO_SD_B1_03"
 					(effects
@@ -814,6 +868,24 @@
 					)
 				)
 				(number "B17"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 73.66 -49.53 180)
+				(length 5.08)
+				(name "GPIO_DISP_B2_04"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C7"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -833,6 +905,24 @@
 					)
 				)
 				(number "C8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 73.66 -52.07 180)
+				(length 5.08)
+				(name "GPIO_DISP_B2_05"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C9"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -879,6 +969,24 @@
 				)
 			)
 			(pin unspecified line
+				(at 73.66 -31.75 180)
+				(length 5.08)
+				(name "GPIO_DISP_B1_09"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
 				(at 33.02 -208.28 90)
 				(length 5.08)
 				(hide yes)
@@ -898,7 +1006,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -5.08 -171.45 0)
+				(at 73.66 -171.45 180)
 				(length 5.08)
 				(name "GPIO_SD_B1_02"
 					(effects
@@ -927,6 +1035,42 @@
 					)
 				)
 				(number "D4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 73.66 -46.99 180)
+				(length 5.08)
+				(name "GPIO_DISP_B2_03"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "D7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 73.66 -24.13 180)
+				(length 5.08)
+				(name "GPIO_DISP_B1_06"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "D10"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -971,7 +1115,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -5.08 -166.37 0)
+				(at 73.66 -166.37 180)
 				(length 5.08)
 				(name "GPIO_SD_B1_01"
 					(effects
@@ -989,7 +1133,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -5.08 -186.69 0)
+				(at 73.66 -186.69 180)
 				(length 5.08)
 				(name "USB1_VBUS"
 					(effects
@@ -1025,7 +1169,61 @@
 				)
 			)
 			(pin unspecified line
-				(at -5.08 -189.23 0)
+				(at 73.66 -39.37 180)
+				(length 5.08)
+				(name "GPIO_DISP_B2_00"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "E8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 73.66 -44.45 180)
+				(length 5.08)
+				(name "GPIO_DISP_B2_02"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "E9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 73.66 -26.67 180)
+				(length 5.08)
+				(name "GPIO_DISP_B1_07"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "E12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 73.66 -189.23 180)
 				(length 5.08)
 				(name "USB1_DN"
 					(effects
@@ -1043,7 +1241,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -5.08 -191.77 0)
+				(at 73.66 -191.77 180)
 				(length 5.08)
 				(name "USB1_DP"
 					(effects
@@ -1090,6 +1288,24 @@
 					)
 				)
 				(number "F7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 73.66 -41.91 180)
+				(length 5.08)
+				(name "GPIO_DISP_B2_01"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "F8"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1183,6 +1399,60 @@
 					)
 				)
 				(number "F13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -5.08 -163.83 0)
+				(length 5.08)
+				(name "GPIO_SD_B2_08"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "F15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -5.08 -171.45 0)
+				(length 5.08)
+				(name "GPIO_SD_B2_11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "F16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -5.08 -158.75 0)
+				(length 5.08)
+				(name "GPIO_SD_B2_06"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "F17"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1360,6 +1630,24 @@
 				)
 			)
 			(pin unspecified line
+				(at -5.08 -161.29 0)
+				(length 5.08)
+				(name "GPIO_SD_B2_07"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "G14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
 				(at 33.02 -208.28 90)
 				(length 5.08)
 				(hide yes)
@@ -1519,6 +1807,42 @@
 					)
 				)
 				(number "H12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -5.08 -168.91 0)
+				(length 5.08)
+				(name "GPIO_SD_B2_10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "H14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -5.08 -166.37 0)
+				(length 5.08)
+				(name "GPIO_SD_B2_09"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "H15"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1938,6 +2262,24 @@
 				)
 			)
 			(pin unspecified line
+				(at -5.08 -181.61 0)
+				(length 5.08)
+				(name "GPIO_AD_24"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "L13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
 				(at 33.02 -208.28 90)
 				(length 5.08)
 				(hide yes)
@@ -2066,6 +2408,24 @@
 				)
 			)
 			(pin unspecified line
+				(at -5.08 -184.15 0)
+				(length 5.08)
+				(name "GPIO_AD_25"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "M15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
 				(at -5.08 -41.91 0)
 				(length 5.08)
 				(name "DCDC_MODE"
@@ -2150,6 +2510,24 @@
 					)
 				)
 				(number "P4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -5.08 -194.31 0)
+				(length 5.08)
+				(name "GPIO_LPSR_02"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "P6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2315,6 +2693,42 @@
 					)
 				)
 				(number "T4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -5.08 -186.69 0)
+				(length 5.08)
+				(name "GPIO_LPSR_14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "T6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -5.08 -191.77 0)
+				(length 5.08)
+				(name "GPIO_LPSR_03"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "T7"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2489,6 +2903,24 @@
 				)
 			)
 			(pin unspecified line
+				(at -5.08 -189.23 0)
+				(length 5.08)
+				(name "GPIO_LPSR_15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "U7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
 				(at -5.08 -57.15 0)
 				(length 5.08)
 				(name "NVCC_SNVS"
@@ -2638,6 +3070,24 @@
 					(justify left)
 				)
 			)
+			(text "LP_UART1_TX"
+				(at 12.7 -181.61 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(text "LP_UART1_RX"
+				(at 12.7 -184.15 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
 			(text "(1.75V Out)"
 				(at 15.24 -54.61 0)
 				(effects
@@ -2683,20 +3133,217 @@
 					(justify left)
 				)
 			)
-			(text "TODO:\n  * BOOT_MODE[1:0] pins?"
-				(at 21.59 -108.458 0)
+			(text "SWD_CLK"
+				(at 15.24 -186.69 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
+					(justify left)
+				)
+			)
+			(text "SWD_DIO"
+				(at 15.24 -189.23 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(text "BOOT_MODE[1]"
+				(at 15.24 -191.77 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(text "BOOT_MODE[0]"
+				(at 15.24 -194.31 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(text "FLEXSPI1_A_SS0_B"
+				(at 16.51 -158.75 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(text "FLEXSPI1_A_SCLK"
+				(at 16.51 -161.29 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(text "FLEXSPI1_A_DATA0"
+				(at 16.51 -163.83 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(text "FLEXSPI1_A_DATA1"
+				(at 16.51 -166.37 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(text "FLEXSPI1_A_DATA2"
+				(at 16.51 -168.91 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(text "FLEXSPI1_A_DATA3"
+				(at 16.51 -171.45 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(text "BOOT_CFG Pins; unless BT_FUSE_SEL is set to 1,\nthese pins alter the boot configuration;\nNEED PULL-DOWN RESISTORS"
+				(at 32.004 -40.132 900)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(text "BOOT_CFG1[0]"
+				(at 50.8 -24.13 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(text "BOOT_CFG1[1]"
+				(at 50.8 -26.67 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(text "BOOT_CFG1[2]"
+				(at 50.8 -29.21 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(text "BOOT_CFG1[3]"
+				(at 50.8 -31.75 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(text "BOOT_CFG1[4]"
+				(at 50.8 -34.29 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(text "BOOT_CFG1[5]"
+				(at 50.8 -36.83 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(text "BOOT_CFG1[6]"
+				(at 50.8 -39.37 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(text "BOOT_CFG1[7]"
+				(at 50.8 -41.91 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(text "BOOT_CFG2[0]"
+				(at 50.8 -44.45 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(text "BOOT_CFG2[1]"
+				(at 50.8 -46.99 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(text "BOOT_CFG2[2]"
+				(at 50.8 -49.53 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(text "BOOT_CFG2[3]"
+				(at 50.8 -52.07 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
 				)
 			)
 		)
 		(symbol "MIMXRT1171DVMAB_2_0"
 			(unit_name "Unused Pins")
 			(pin unspecified line
-				(at 57.15 17.78 0)
+				(at 50.8 -12.7 0)
 				(length 5.08)
 				(name "GPIO_EMC_B1_10"
 					(effects
@@ -2714,7 +3361,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 57.15 15.24 0)
+				(at 50.8 -15.24 0)
 				(length 5.08)
 				(name "GPIO_EMC_B1_09"
 					(effects
@@ -2732,7 +3379,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 57.15 12.7 0)
+				(at 50.8 -17.78 0)
 				(length 5.08)
 				(name "GPIO_DISP_B2_15"
 					(effects
@@ -2750,7 +3397,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 57.15 10.16 0)
+				(at 50.8 -20.32 0)
 				(length 5.08)
 				(name "GPIO_DISP_B2_13"
 					(effects
@@ -2768,7 +3415,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 57.15 7.62 0)
+				(at 50.8 -22.86 0)
 				(length 5.08)
 				(name "GPIO_DISP_B2_11"
 					(effects
@@ -2786,7 +3433,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 57.15 5.08 0)
+				(at 50.8 -25.4 0)
 				(length 5.08)
 				(name "GPIO_DISP_B2_14"
 					(effects
@@ -2804,7 +3451,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 100.33 -110.49 0)
+				(at 88.9 -88.9 0)
 				(length 5.08)
 				(name "MIPI_DSI_DN0"
 					(effects
@@ -2822,7 +3469,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 100.33 -113.03 0)
+				(at 88.9 -91.44 0)
 				(length 5.08)
 				(name "MIPI_DSI_CKN"
 					(effects
@@ -2840,7 +3487,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 100.33 -115.57 0)
+				(at 88.9 -93.98 0)
 				(length 5.08)
 				(name "MIPI_DSI_DN1"
 					(effects
@@ -2858,7 +3505,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 100.33 -118.11 0)
+				(at 88.9 -96.52 0)
 				(length 5.08)
 				(name "MIPI_CSI_DN0"
 					(effects
@@ -2876,7 +3523,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 100.33 -120.65 0)
+				(at 88.9 -99.06 0)
 				(length 5.08)
 				(name "MIPI_CSI_CKN"
 					(effects
@@ -2894,7 +3541,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 100.33 -123.19 0)
+				(at 88.9 -101.6 0)
 				(length 5.08)
 				(name "MIPI_CSI_DN1"
 					(effects
@@ -2912,43 +3559,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 57.15 2.54 0)
-				(length 5.08)
-				(name "GPIO_DISP_B1_11"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "A14"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 57.15 0 0)
-				(length 5.08)
-				(name "GPIO_DISP_B1_08"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "A15"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 57.15 -5.08 0)
+				(at 50.8 -27.94 0)
 				(length 5.08)
 				(name "GPIO_EMC_B1_14"
 					(effects
@@ -2966,7 +3577,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 57.15 -7.62 0)
+				(at 50.8 -30.48 0)
 				(length 5.08)
 				(name "GPIO_EMC_B1_23"
 					(effects
@@ -2984,7 +3595,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 57.15 -10.16 0)
+				(at 50.8 -33.02 0)
 				(length 5.08)
 				(name "GPIO_EMC_B1_17"
 					(effects
@@ -3002,7 +3613,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 57.15 -12.7 0)
+				(at 50.8 -35.56 0)
 				(length 5.08)
 				(name "GPIO_EMC_B1_18"
 					(effects
@@ -3020,7 +3631,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 57.15 -15.24 0)
+				(at 50.8 -38.1 0)
 				(length 5.08)
 				(name "GPIO_DISP_B2_08"
 					(effects
@@ -3038,7 +3649,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 57.15 -17.78 0)
+				(at 50.8 -40.64 0)
 				(length 5.08)
 				(name "GPIO_DISP_B2_12"
 					(effects
@@ -3056,7 +3667,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 100.33 -125.73 0)
+				(at 88.9 -104.14 0)
 				(length 5.08)
 				(name "MIPI_DSI_DP0"
 					(effects
@@ -3074,7 +3685,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 100.33 -128.27 0)
+				(at 88.9 -106.68 0)
 				(length 5.08)
 				(name "MIPI_DSI_CKP"
 					(effects
@@ -3092,7 +3703,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 100.33 -130.81 0)
+				(at 88.9 -109.22 0)
 				(length 5.08)
 				(name "MIPI_DSI_DP1"
 					(effects
@@ -3110,7 +3721,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 100.33 -133.35 0)
+				(at 88.9 -111.76 0)
 				(length 5.08)
 				(name "MIPI_CSI_DP0"
 					(effects
@@ -3128,7 +3739,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 100.33 -135.89 0)
+				(at 88.9 -114.3 0)
 				(length 5.08)
 				(name "MIPI_CSI_CKP"
 					(effects
@@ -3146,7 +3757,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 100.33 -138.43 0)
+				(at 88.9 -116.84 0)
 				(length 5.08)
 				(name "MIPI_CSI_DP1"
 					(effects
@@ -3164,25 +3775,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 57.15 -20.32 0)
-				(length 5.08)
-				(name "GPIO_DISP_B1_10"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "B14"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 57.15 -30.48 0)
+				(at 50.8 -43.18 0)
 				(length 5.08)
 				(name "GPIO_EMC_B1_15"
 					(effects
@@ -3200,7 +3793,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 57.15 -33.02 0)
+				(at 50.8 -45.72 0)
 				(length 5.08)
 				(name "GPIO_EMC_B1_11"
 					(effects
@@ -3218,7 +3811,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 57.15 -35.56 0)
+				(at 50.8 -48.26 0)
 				(length 5.08)
 				(name "GPIO_EMC_B1_20"
 					(effects
@@ -3236,7 +3829,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 57.15 -38.1 0)
+				(at 50.8 -50.8 0)
 				(length 5.08)
 				(name "GPIO_EMC_B1_19"
 					(effects
@@ -3254,7 +3847,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 57.15 -40.64 0)
+				(at 50.8 -53.34 0)
 				(length 5.08)
 				(name "GPIO_EMC_B1_12"
 					(effects
@@ -3272,7 +3865,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 57.15 -43.18 0)
+				(at 50.8 -55.88 0)
 				(length 5.08)
 				(name "GPIO_DISP_B2_06"
 					(effects
@@ -3290,43 +3883,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 57.15 -45.72 0)
-				(length 5.08)
-				(name "GPIO_DISP_B2_04"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "C7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 57.15 -48.26 0)
-				(length 5.08)
-				(name "GPIO_DISP_B2_05"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "C9"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 57.15 -50.8 0)
+				(at 50.8 -58.42 0)
 				(length 5.08)
 				(name "GPIO_DISP_B1_05"
 					(effects
@@ -3344,25 +3901,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 57.15 -53.34 0)
-				(length 5.08)
-				(name "GPIO_DISP_B1_09"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "C13"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 138.43 -161.29 0)
+				(at 127 -139.7 0)
 				(length 5.08)
 				(name "USB2_DN"
 					(effects
@@ -3380,7 +3919,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 138.43 -163.83 0)
+				(at 127 -142.24 0)
 				(length 5.08)
 				(name "USB2_DP"
 					(effects
@@ -3398,7 +3937,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 57.15 -58.42 0)
+				(at 50.8 -60.96 0)
 				(length 5.08)
 				(name "GPIO_EMC_B1_32"
 					(effects
@@ -3416,7 +3955,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 57.15 -60.96 0)
+				(at 50.8 -63.5 0)
 				(length 5.08)
 				(name "GPIO_EMC_B1_31"
 					(effects
@@ -3434,7 +3973,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 57.15 -63.5 0)
+				(at 50.8 -66.04 0)
 				(length 5.08)
 				(name "GPIO_EMC_B1_16"
 					(effects
@@ -3452,7 +3991,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 57.15 -66.04 0)
+				(at 50.8 -68.58 0)
 				(length 5.08)
 				(name "GPIO_EMC_B1_13"
 					(effects
@@ -3470,7 +4009,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 57.15 -68.58 0)
+				(at 50.8 -71.12 0)
 				(length 5.08)
 				(name "GPIO_DISP_B2_07"
 					(effects
@@ -3488,25 +4027,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 57.15 -71.12 0)
-				(length 5.08)
-				(name "GPIO_DISP_B2_03"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "D7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 57.15 -73.66 0)
+				(at 50.8 -73.66 0)
 				(length 5.08)
 				(name "GPIO_DISP_B2_09"
 					(effects
@@ -3524,7 +4045,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 57.15 -76.2 0)
+				(at 50.8 -76.2 0)
 				(length 5.08)
 				(name "GPIO_DISP_B2_10"
 					(effects
@@ -3542,25 +4063,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 57.15 -78.74 0)
-				(length 5.08)
-				(name "GPIO_DISP_B1_06"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "D10"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 57.15 -81.28 0)
+				(at 50.8 -78.74 0)
 				(length 5.08)
 				(name "GPIO_DISP_B1_02"
 					(effects
@@ -3578,7 +4081,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 57.15 -83.82 0)
+				(at 50.8 -81.28 0)
 				(length 5.08)
 				(name "GPIO_DISP_B1_01"
 					(effects
@@ -3596,7 +4099,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 138.43 -166.37 0)
+				(at 127 -144.78 0)
 				(length 5.08)
 				(name "USB2_VBUS"
 					(effects
@@ -3614,7 +4117,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 57.15 -88.9 0)
+				(at 50.8 -83.82 0)
 				(length 5.08)
 				(name "GPIO_EMC_B1_34"
 					(effects
@@ -3632,7 +4135,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 57.15 -91.44 0)
+				(at 50.8 -86.36 0)
 				(length 5.08)
 				(name "GPIO_EMC_B1_33"
 					(effects
@@ -3650,7 +4153,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 57.15 -93.98 0)
+				(at 50.8 -88.9 0)
 				(length 5.08)
 				(name "GPIO_EMC_B1_30"
 					(effects
@@ -3668,7 +4171,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 57.15 -96.52 0)
+				(at 50.8 -91.44 0)
 				(length 5.08)
 				(name "GPIO_EMC_B1_03"
 					(effects
@@ -3686,7 +4189,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 57.15 -99.06 0)
+				(at 50.8 -93.98 0)
 				(length 5.08)
 				(name "GPIO_EMC_B1_28"
 					(effects
@@ -3704,7 +4207,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 57.15 -101.6 0)
+				(at 50.8 -96.52 0)
 				(length 5.08)
 				(name "GPIO_EMC_B1_29"
 					(effects
@@ -3722,43 +4225,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 57.15 -104.14 0)
-				(length 5.08)
-				(name "GPIO_DISP_B2_00"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "E8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 57.15 -106.68 0)
-				(length 5.08)
-				(name "GPIO_DISP_B2_02"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "E9"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 57.15 -109.22 0)
+				(at 50.8 -99.06 0)
 				(length 5.08)
 				(name "GPIO_DISP_B1_04"
 					(effects
@@ -3776,7 +4243,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 57.15 -111.76 0)
+				(at 50.8 -101.6 0)
 				(length 5.08)
 				(name "GPIO_DISP_B1_03"
 					(effects
@@ -3794,25 +4261,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 57.15 -114.3 0)
-				(length 5.08)
-				(name "GPIO_DISP_B1_07"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "E12"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 57.15 -116.84 0)
+				(at 50.8 -104.14 0)
 				(length 5.08)
 				(name "GPIO_DISP_B1_00"
 					(effects
@@ -3830,7 +4279,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 57.15 -119.38 0)
+				(at 50.8 -106.68 0)
 				(length 5.08)
 				(name "GPIO_SD_B2_05"
 					(effects
@@ -3848,7 +4297,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 57.15 -121.92 0)
+				(at 50.8 -109.22 0)
 				(length 5.08)
 				(name "GPIO_SD_B2_03"
 					(effects
@@ -3866,7 +4315,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 57.15 -124.46 0)
+				(at 50.8 -111.76 0)
 				(length 5.08)
 				(name "GPIO_EMC_B1_35"
 					(effects
@@ -3884,7 +4333,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 57.15 -127 0)
+				(at 50.8 -114.3 0)
 				(length 5.08)
 				(name "GPIO_EMC_B1_01"
 					(effects
@@ -3902,7 +4351,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 57.15 -129.54 0)
+				(at 50.8 -116.84 0)
 				(length 5.08)
 				(name "GPIO_EMC_B1_00"
 					(effects
@@ -3920,7 +4369,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 57.15 -132.08 0)
+				(at 50.8 -119.38 0)
 				(length 5.08)
 				(name "GPIO_EMC_B1_05"
 					(effects
@@ -3938,7 +4387,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 57.15 -134.62 0)
+				(at 50.8 -121.92 0)
 				(length 5.08)
 				(name "GPIO_EMC_B1_08"
 					(effects
@@ -3956,25 +4405,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 57.15 -137.16 0)
-				(length 5.08)
-				(name "GPIO_DISP_B2_01"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "F8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 57.15 -139.7 0)
+				(at 50.8 -124.46 0)
 				(length 5.08)
 				(name "GPIO_SD_B2_04"
 					(effects
@@ -3992,61 +4423,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 57.15 -142.24 0)
-				(length 5.08)
-				(name "GPIO_SD_B2_08"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "F15"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 57.15 -144.78 0)
-				(length 5.08)
-				(name "GPIO_SD_B2_11"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "F16"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 57.15 -147.32 0)
-				(length 5.08)
-				(name "GPIO_SD_B2_06"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "F17"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 57.15 -149.86 0)
+				(at 50.8 -127 0)
 				(length 5.08)
 				(name "GPIO_EMC_B1_36"
 					(effects
@@ -4064,7 +4441,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 57.15 -152.4 0)
+				(at 50.8 -129.54 0)
 				(length 5.08)
 				(name "GPIO_EMC_B1_21"
 					(effects
@@ -4082,7 +4459,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 57.15 -154.94 0)
+				(at 50.8 -132.08 0)
 				(length 5.08)
 				(name "GPIO_EMC_B1_02"
 					(effects
@@ -4100,7 +4477,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 57.15 -157.48 0)
+				(at 50.8 -134.62 0)
 				(length 5.08)
 				(name "GPIO_EMC_B1_27"
 					(effects
@@ -4118,25 +4495,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 57.15 -160.02 0)
-				(length 5.08)
-				(name "GPIO_SD_B2_07"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "G14"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 16.51 -91.44 0)
+				(at 12.7 -48.26 0)
 				(length 5.08)
 				(name "GPIO_AD_35"
 					(effects
@@ -4154,7 +4513,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 57.15 -165.1 0)
+				(at 50.8 -137.16 0)
 				(length 5.08)
 				(name "GPIO_EMC_B1_37"
 					(effects
@@ -4172,7 +4531,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 57.15 -167.64 0)
+				(at 50.8 -139.7 0)
 				(length 5.08)
 				(name "GPIO_EMC_B1_22"
 					(effects
@@ -4190,7 +4549,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 57.15 -170.18 0)
+				(at 50.8 -142.24 0)
 				(length 5.08)
 				(name "GPIO_EMC_B1_07"
 					(effects
@@ -4208,7 +4567,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 57.15 -172.72 0)
+				(at 50.8 -144.78 0)
 				(length 5.08)
 				(name "GPIO_EMC_B1_06"
 					(effects
@@ -4226,7 +4585,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 57.15 -175.26 0)
+				(at 50.8 -147.32 0)
 				(length 5.08)
 				(name "GPIO_EMC_B1_04"
 					(effects
@@ -4244,7 +4603,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 57.15 -177.8 0)
+				(at 50.8 -149.86 0)
 				(length 5.08)
 				(name "GPIO_SD_B2_02"
 					(effects
@@ -4262,43 +4621,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 57.15 -180.34 0)
-				(length 5.08)
-				(name "GPIO_SD_B2_10"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "H14"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 57.15 -182.88 0)
-				(length 5.08)
-				(name "GPIO_SD_B2_09"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "H15"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 16.51 -93.98 0)
+				(at 12.7 -50.8 0)
 				(length 5.08)
 				(name "GPIO_AD_33"
 					(effects
@@ -4316,7 +4639,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 57.15 -187.96 0)
+				(at 50.8 -152.4 0)
 				(length 5.08)
 				(name "GPIO_EMC_B1_38"
 					(effects
@@ -4334,7 +4657,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 57.15 -190.5 0)
+				(at 50.8 -154.94 0)
 				(length 5.08)
 				(name "GPIO_EMC_B1_39"
 					(effects
@@ -4352,7 +4675,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 57.15 -193.04 0)
+				(at 50.8 -157.48 0)
 				(length 5.08)
 				(name "GPIO_EMC_B1_26"
 					(effects
@@ -4370,7 +4693,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 57.15 -195.58 0)
+				(at 50.8 -160.02 0)
 				(length 5.08)
 				(name "GPIO_EMC_B1_25"
 					(effects
@@ -4388,7 +4711,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 57.15 -198.12 0)
+				(at 50.8 -162.56 0)
 				(length 5.08)
 				(name "GPIO_EMC_B1_24"
 					(effects
@@ -4406,7 +4729,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 15.24 -27.94 0)
+				(at 88.9 -55.88 0)
 				(length 5.08)
 				(name "GPIO_AD_23"
 					(effects
@@ -4424,7 +4747,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 16.51 -96.52 0)
+				(at 12.7 -53.34 0)
 				(length 5.08)
 				(name "GPIO_SD_B2_01"
 					(effects
@@ -4442,7 +4765,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 16.51 -99.06 0)
+				(at 12.7 -55.88 0)
 				(length 5.08)
 				(name "GPIO_SD_B2_00"
 					(effects
@@ -4460,7 +4783,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 16.51 -55.88 0)
+				(at 12.7 -12.7 0)
 				(length 5.08)
 				(name "GPIO_AD_34"
 					(effects
@@ -4478,7 +4801,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 16.51 -58.42 0)
+				(at 12.7 -15.24 0)
 				(length 5.08)
 				(name "GPIO_AD_31"
 					(effects
@@ -4496,7 +4819,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 16.51 -101.6 0)
+				(at 12.7 -58.42 0)
 				(length 5.08)
 				(name "GPIO_EMC_B1_40"
 					(effects
@@ -4514,7 +4837,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 16.51 -104.14 0)
+				(at 12.7 -60.96 0)
 				(length 5.08)
 				(name "GPIO_EMC_B2_00"
 					(effects
@@ -4532,7 +4855,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 16.51 -106.68 0)
+				(at 12.7 -63.5 0)
 				(length 5.08)
 				(name "GPIO_EMC_B2_02"
 					(effects
@@ -4550,7 +4873,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 16.51 -109.22 0)
+				(at 12.7 -66.04 0)
 				(length 5.08)
 				(name "GPIO_EMC_B2_01"
 					(effects
@@ -4568,7 +4891,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 16.51 -111.76 0)
+				(at 12.7 -68.58 0)
 				(length 5.08)
 				(name "GPIO_EMC_B2_13"
 					(effects
@@ -4586,7 +4909,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 15.24 -25.4 0)
+				(at 88.9 -53.34 0)
 				(length 5.08)
 				(name "GPIO_AD_22"
 					(effects
@@ -4604,7 +4927,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 15.24 -20.32 0)
+				(at 88.9 -48.26 0)
 				(length 5.08)
 				(name "GPIO_AD_20"
 					(effects
@@ -4622,7 +4945,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 15.24 -22.86 0)
+				(at 88.9 -50.8 0)
 				(length 5.08)
 				(name "GPIO_AD_21"
 					(effects
@@ -4640,7 +4963,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 16.51 -60.96 0)
+				(at 12.7 -17.78 0)
 				(length 5.08)
 				(name "GPIO_AD_32"
 					(effects
@@ -4658,7 +4981,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 16.51 -63.5 0)
+				(at 12.7 -20.32 0)
 				(length 5.08)
 				(name "GPIO_AD_30"
 					(effects
@@ -4676,7 +4999,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 16.51 -114.3 0)
+				(at 12.7 -71.12 0)
 				(length 5.08)
 				(name "GPIO_EMC_B1_41"
 					(effects
@@ -4694,7 +5017,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 16.51 -116.84 0)
+				(at 12.7 -73.66 0)
 				(length 5.08)
 				(name "GPIO_EMC_B2_15"
 					(effects
@@ -4712,7 +5035,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 16.51 -119.38 0)
+				(at 12.7 -76.2 0)
 				(length 5.08)
 				(name "GPIO_EMC_B2_11"
 					(effects
@@ -4730,7 +5053,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 138.43 -110.49 0)
+				(at 127 -88.9 0)
 				(length 5.08)
 				(name "GPIO_SNVS_02"
 					(effects
@@ -4748,7 +5071,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 15.24 -2.54 0)
+				(at 88.9 -30.48 0)
 				(length 5.08)
 				(name "GPIO_AD_13"
 					(effects
@@ -4766,25 +5089,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 15.24 -30.48 0)
-				(length 5.08)
-				(name "GPIO_AD_24"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "L13"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 16.51 -66.04 0)
+				(at 12.7 -22.86 0)
 				(length 5.08)
 				(name "GPIO_AD_26"
 					(effects
@@ -4802,7 +5107,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 15.24 -17.78 0)
+				(at 88.9 -45.72 0)
 				(length 5.08)
 				(name "GPIO_AD_19"
 					(effects
@@ -4820,7 +5125,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 16.51 -68.58 0)
+				(at 12.7 -25.4 0)
 				(length 5.08)
 				(name "GPIO_AD_28"
 					(effects
@@ -4838,7 +5143,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 16.51 -121.92 0)
+				(at 12.7 -78.74 0)
 				(length 5.08)
 				(name "GPIO_EMC_B2_04"
 					(effects
@@ -4856,7 +5161,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 16.51 -124.46 0)
+				(at 12.7 -81.28 0)
 				(length 5.08)
 				(name "GPIO_EMC_B2_12"
 					(effects
@@ -4874,7 +5179,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 16.51 -127 0)
+				(at 12.7 -83.82 0)
 				(length 5.08)
 				(name "GPIO_EMC_B2_07"
 					(effects
@@ -4892,7 +5197,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 16.51 -129.54 0)
+				(at 12.7 -86.36 0)
 				(length 5.08)
 				(name "GPIO_EMC_B2_14"
 					(effects
@@ -4910,7 +5215,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 138.43 -113.03 0)
+				(at 127 -91.44 0)
 				(length 5.08)
 				(name "GPIO_SNVS_06"
 					(effects
@@ -4928,7 +5233,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 138.43 -115.57 0)
+				(at 127 -93.98 0)
 				(length 5.08)
 				(name "GPIO_SNVS_03"
 					(effects
@@ -4946,7 +5251,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 16.51 -71.12 0)
+				(at 12.7 -27.94 0)
 				(length 5.08)
 				(name "GPIO_AD_04"
 					(effects
@@ -4964,7 +5269,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 15.24 -7.62 0)
+				(at 88.9 -35.56 0)
 				(length 5.08)
 				(name "GPIO_AD_15"
 					(effects
@@ -4982,25 +5287,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 15.24 -33.02 0)
-				(length 5.08)
-				(name "GPIO_AD_25"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "M15"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 15.24 -15.24 0)
+				(at 88.9 -43.18 0)
 				(length 5.08)
 				(name "GPIO_AD_18"
 					(effects
@@ -5018,7 +5305,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 16.51 -73.66 0)
+				(at 12.7 -30.48 0)
 				(length 5.08)
 				(name "GPIO_AD_29"
 					(effects
@@ -5036,7 +5323,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 16.51 -132.08 0)
+				(at 12.7 -88.9 0)
 				(length 5.08)
 				(name "GPIO_EMC_B2_05"
 					(effects
@@ -5054,7 +5341,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 16.51 -134.62 0)
+				(at 12.7 -91.44 0)
 				(length 5.08)
 				(name "GPIO_EMC_B2_09"
 					(effects
@@ -5072,7 +5359,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 16.51 -137.16 0)
+				(at 12.7 -93.98 0)
 				(length 5.08)
 				(name "GPIO_EMC_B2_18"
 					(effects
@@ -5090,7 +5377,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 16.51 -139.7 0)
+				(at 12.7 -96.52 0)
 				(length 5.08)
 				(name "GPIO_LPSR_00"
 					(effects
@@ -5108,7 +5395,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 16.51 -142.24 0)
+				(at 12.7 -99.06 0)
 				(length 5.08)
 				(name "GPIO_LPSR_04"
 					(effects
@@ -5126,7 +5413,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 16.51 -144.78 0)
+				(at 12.7 -101.6 0)
 				(length 5.08)
 				(name "GPIO_LPSR_05"
 					(effects
@@ -5144,7 +5431,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 138.43 -118.11 0)
+				(at 127 -96.52 0)
 				(length 5.08)
 				(name "GPIO_SNVS_08"
 					(effects
@@ -5162,7 +5449,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 138.43 -120.65 0)
+				(at 127 -99.06 0)
 				(length 5.08)
 				(name "GPIO_SNVS_04"
 					(effects
@@ -5180,7 +5467,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 16.51 -76.2 0)
+				(at 12.7 -33.02 0)
 				(length 5.08)
 				(name "GPIO_AD_00"
 					(effects
@@ -5198,7 +5485,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 15.24 15.24 0)
+				(at 88.9 -12.7 0)
 				(length 5.08)
 				(name "GPIO_AD_06"
 					(effects
@@ -5216,7 +5503,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 15.24 -5.08 0)
+				(at 88.9 -33.02 0)
 				(length 5.08)
 				(name "GPIO_AD_14"
 					(effects
@@ -5234,7 +5521,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 15.24 -12.7 0)
+				(at 88.9 -40.64 0)
 				(length 5.08)
 				(name "GPIO_AD_17"
 					(effects
@@ -5252,7 +5539,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 16.51 -78.74 0)
+				(at 12.7 -35.56 0)
 				(length 5.08)
 				(name "GPIO_AD_27"
 					(effects
@@ -5270,7 +5557,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 15.24 -10.16 0)
+				(at 88.9 -38.1 0)
 				(length 5.08)
 				(name "GPIO_AD_16"
 					(effects
@@ -5288,7 +5575,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 16.51 -147.32 0)
+				(at 12.7 -104.14 0)
 				(length 5.08)
 				(name "GPIO_EMC_B2_08"
 					(effects
@@ -5306,7 +5593,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 16.51 -149.86 0)
+				(at 12.7 -106.68 0)
 				(length 5.08)
 				(name "GPIO_EMC_B2_16"
 					(effects
@@ -5324,7 +5611,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 16.51 -152.4 0)
+				(at 12.7 -109.22 0)
 				(length 5.08)
 				(name "GPIO_LPSR_09"
 					(effects
@@ -5342,25 +5629,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 16.51 -154.94 0)
-				(length 5.08)
-				(name "GPIO_LPSR_02"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "P6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 16.51 -157.48 0)
+				(at 12.7 -111.76 0)
 				(length 5.08)
 				(name "GPIO_LPSR_06"
 					(effects
@@ -5378,7 +5647,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 138.43 -123.19 0)
+				(at 127 -101.6 0)
 				(length 5.08)
 				(name "GPIO_SNVS_05"
 					(effects
@@ -5396,7 +5665,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 138.43 -125.73 0)
+				(at 127 -104.14 0)
 				(length 5.08)
 				(name "GPIO_SNVS_01"
 					(effects
@@ -5414,7 +5683,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 16.51 -81.28 0)
+				(at 12.7 -38.1 0)
 				(length 5.08)
 				(name "GPIO_AD_05"
 					(effects
@@ -5432,7 +5701,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 16.51 -83.82 0)
+				(at 12.7 -40.64 0)
 				(length 5.08)
 				(name "GPIO_AD_03"
 					(effects
@@ -5450,7 +5719,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 15.24 2.54 0)
+				(at 88.9 -25.4 0)
 				(length 5.08)
 				(name "GPIO_AD_11"
 					(effects
@@ -5468,7 +5737,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 15.24 0 0)
+				(at 88.9 -27.94 0)
 				(length 5.08)
 				(name "GPIO_AD_12"
 					(effects
@@ -5486,7 +5755,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 16.51 -160.02 0)
+				(at 12.7 -114.3 0)
 				(length 5.08)
 				(name "GPIO_EMC_B2_03"
 					(effects
@@ -5504,7 +5773,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 16.51 -162.56 0)
+				(at 12.7 -116.84 0)
 				(length 5.08)
 				(name "GPIO_EMC_B2_10"
 					(effects
@@ -5522,7 +5791,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 16.51 -165.1 0)
+				(at 12.7 -119.38 0)
 				(length 5.08)
 				(name "GPIO_EMC_B2_20"
 					(effects
@@ -5540,7 +5809,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 16.51 -167.64 0)
+				(at 12.7 -121.92 0)
 				(length 5.08)
 				(name "GPIO_LPSR_10"
 					(effects
@@ -5558,7 +5827,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 16.51 -170.18 0)
+				(at 12.7 -124.46 0)
 				(length 5.08)
 				(name "GPIO_LPSR_01"
 					(effects
@@ -5576,7 +5845,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 16.51 -172.72 0)
+				(at 12.7 -127 0)
 				(length 5.08)
 				(name "GPIO_LPSR_07"
 					(effects
@@ -5594,7 +5863,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 138.43 -128.27 0)
+				(at 127 -106.68 0)
 				(length 5.08)
 				(name "GPIO_SNVS_07"
 					(effects
@@ -5612,7 +5881,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 138.43 -130.81 0)
+				(at 127 -109.22 0)
 				(length 5.08)
 				(name "GPIO_SNVS_00"
 					(effects
@@ -5630,7 +5899,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 138.43 -133.35 0)
+				(at 127 -111.76 0)
 				(length 5.08)
 				(name "GPIO_SNVS_09"
 					(effects
@@ -5648,7 +5917,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 16.51 -86.36 0)
+				(at 12.7 -43.18 0)
 				(length 5.08)
 				(name "GPIO_AD_02"
 					(effects
@@ -5666,7 +5935,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 16.51 -88.9 0)
+				(at 12.7 -45.72 0)
 				(length 5.08)
 				(name "GPIO_AD_01"
 					(effects
@@ -5684,7 +5953,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 15.24 10.16 0)
+				(at 88.9 -17.78 0)
 				(length 5.08)
 				(name "GPIO_AD_08"
 					(effects
@@ -5702,7 +5971,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 15.24 7.62 0)
+				(at 88.9 -20.32 0)
 				(length 5.08)
 				(name "GPIO_AD_09"
 					(effects
@@ -5720,7 +5989,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 15.24 5.08 0)
+				(at 88.9 -22.86 0)
 				(length 5.08)
 				(name "GPIO_AD_10"
 					(effects
@@ -5738,7 +6007,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 16.51 -175.26 0)
+				(at 12.7 -129.54 0)
 				(length 5.08)
 				(name "GPIO_EMC_B2_06"
 					(effects
@@ -5756,7 +6025,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 16.51 -177.8 0)
+				(at 12.7 -132.08 0)
 				(length 5.08)
 				(name "GPIO_EMC_B2_17"
 					(effects
@@ -5774,7 +6043,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 16.51 -180.34 0)
+				(at 12.7 -134.62 0)
 				(length 5.08)
 				(name "GPIO_LPSR_11"
 					(effects
@@ -5792,43 +6061,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 16.51 -182.88 0)
-				(length 5.08)
-				(name "GPIO_LPSR_14"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "T6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 16.51 -185.42 0)
-				(length 5.08)
-				(name "GPIO_LPSR_03"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "T7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 100.33 -161.29 0)
+				(at 88.9 -139.7 0)
 				(length 5.08)
 				(name "WAKEUP"
 					(effects
@@ -5846,7 +6079,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 100.33 -163.83 0)
+				(at 88.9 -142.24 0)
 				(length 5.08)
 				(name "PMIC_STBY_REQ"
 					(effects
@@ -5864,7 +6097,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 100.33 -166.37 0)
+				(at 88.9 -144.78 0)
 				(length 5.08)
 				(name "CLK1_N"
 					(effects
@@ -5882,7 +6115,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 15.24 12.7 0)
+				(at 88.9 -15.24 0)
 				(length 5.08)
 				(name "GPIO_AD_07"
 					(effects
@@ -5900,7 +6133,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 16.51 -187.96 0)
+				(at 12.7 -137.16 0)
 				(length 5.08)
 				(name "GPIO_EMC_B2_19"
 					(effects
@@ -5918,7 +6151,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 16.51 -190.5 0)
+				(at 12.7 -139.7 0)
 				(length 5.08)
 				(name "GPIO_LPSR_12"
 					(effects
@@ -5936,7 +6169,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 16.51 -193.04 0)
+				(at 12.7 -142.24 0)
 				(length 5.08)
 				(name "GPIO_LPSR_13"
 					(effects
@@ -5954,25 +6187,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 16.51 -195.58 0)
-				(length 5.08)
-				(name "GPIO_LPSR_15"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "U7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 16.51 -198.12 0)
+				(at 12.7 -144.78 0)
 				(length 5.08)
 				(name "GPIO_LPSR_08"
 					(effects
@@ -5990,7 +6205,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 100.33 -168.91 0)
+				(at 88.9 -147.32 0)
 				(length 5.08)
 				(name "PMIC_ON_REQ"
 					(effects
@@ -6008,7 +6223,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 100.33 -171.45 0)
+				(at 88.9 -149.86 0)
 				(length 5.08)
 				(name "ONOFF"
 					(effects
@@ -6026,7 +6241,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 100.33 -173.99 0)
+				(at 88.9 -152.4 0)
 				(length 5.08)
 				(name "CLK1_P"
 					(effects
@@ -6047,7 +6262,7 @@
 		(symbol "MIMXRT1171DVMAB_2_1"
 			(unit_name "Unused Pins")
 			(text "ADC Pins"
-				(at 19.05 21.59 0)
+				(at 92.71 -8.89 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -6055,7 +6270,7 @@
 				)
 			)
 			(text "ADC Pins"
-				(at 19.05 21.59 0)
+				(at 92.71 -44.45 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -6063,7 +6278,7 @@
 				)
 			)
 			(text "MIPI not available;\nleave disconnected"
-				(at 103.632 -103.378 0)
+				(at 92.71 -83.82 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -6071,7 +6286,7 @@
 				)
 			)
 			(text "Not needed;\nleave disconnected"
-				(at 104.394 -154.686 0)
+				(at 92.71 -134.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -6079,7 +6294,7 @@
 				)
 			)
 			(text "USB2 is not used;\nleave disconnected"
-				(at 140.97 -154.686 0)
+				(at 129.54 -134.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -6087,7 +6302,7 @@
 				)
 			)
 			(text "1.75V Logic Level\n(SNVS Domain)"
-				(at 143.764 -104.394 0)
+				(at 132.08 -83.82 0)
 				(effects
 					(font
 						(size 1.27 1.27)

@@ -28,8 +28,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 0)
+		(property "Footprint" "project_footprints:MAYA-W166-00B"
+			(at -10.16 8.636 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -64,7 +64,7 @@
 		(symbol "MAYA-W166-00B_1_0"
 			(unit_name "Main Symbol")
 			(pin passive line
-				(at 16.51 -68.58 90)
+				(at 19.05 -68.58 90)
 				(length 5.08)
 				(name "GND"
 					(effects
@@ -82,7 +82,7 @@
 				)
 			)
 			(pin passive line
-				(at 12.7 5.08 270)
+				(at 13.97 5.08 270)
 				(length 5.08)
 				(name "1V8"
 					(effects
@@ -154,7 +154,7 @@
 				)
 			)
 			(pin passive line
-				(at 20.32 5.08 270)
+				(at 19.05 5.08 270)
 				(length 5.08)
 				(name "VIO_SD"
 					(effects
@@ -172,7 +172,7 @@
 				)
 			)
 			(pin passive line
-				(at 15.24 5.08 270)
+				(at 24.13 5.08 270)
 				(length 5.08)
 				(name "3V3"
 					(effects
@@ -190,7 +190,7 @@
 				)
 			)
 			(pin passive line
-				(at 17.78 5.08 270)
+				(at 16.51 5.08 270)
 				(length 5.08)
 				(name "VIO"
 					(effects
@@ -208,7 +208,7 @@
 				)
 			)
 			(pin passive line
-				(at 16.51 -68.58 90)
+				(at 19.05 -68.58 90)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -227,7 +227,7 @@
 				)
 			)
 			(pin passive line
-				(at 16.51 -68.58 90)
+				(at 19.05 -68.58 90)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -300,7 +300,7 @@
 				)
 			)
 			(pin passive line
-				(at 15.24 5.08 270)
+				(at 24.13 5.08 270)
 				(length 5.08)
 				(hide yes)
 				(name "3V3"
@@ -319,7 +319,7 @@
 				)
 			)
 			(pin passive line
-				(at 16.51 -68.58 90)
+				(at 19.05 -68.58 90)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -374,7 +374,7 @@
 				)
 			)
 			(pin passive line
-				(at 16.51 -68.58 90)
+				(at 19.05 -68.58 90)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -393,7 +393,7 @@
 				)
 			)
 			(pin passive line
-				(at 16.51 -68.58 90)
+				(at 19.05 -68.58 90)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -430,7 +430,7 @@
 				)
 			)
 			(pin passive line
-				(at 16.51 -68.58 90)
+				(at 19.05 -68.58 90)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -449,7 +449,7 @@
 				)
 			)
 			(pin passive line
-				(at 16.51 -68.58 90)
+				(at 19.05 -68.58 90)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -522,7 +522,7 @@
 				)
 			)
 			(pin passive line
-				(at 16.51 -68.58 90)
+				(at 19.05 -68.58 90)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -541,7 +541,7 @@
 				)
 			)
 			(pin passive line
-				(at 16.51 -68.58 90)
+				(at 19.05 -68.58 90)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -686,7 +686,7 @@
 				)
 			)
 			(pin passive line
-				(at 16.51 -68.58 90)
+				(at 19.05 -68.58 90)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -705,7 +705,7 @@
 				)
 			)
 			(pin passive line
-				(at 16.51 -68.58 90)
+				(at 19.05 -68.58 90)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -724,7 +724,7 @@
 				)
 			)
 			(pin passive line
-				(at 16.51 -68.58 90)
+				(at 19.05 -68.58 90)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -743,7 +743,7 @@
 				)
 			)
 			(pin passive line
-				(at 16.51 -68.58 90)
+				(at 19.05 -68.58 90)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -762,7 +762,7 @@
 				)
 			)
 			(pin passive line
-				(at 16.51 -68.58 90)
+				(at 19.05 -68.58 90)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -781,7 +781,7 @@
 				)
 			)
 			(pin passive line
-				(at 16.51 -68.58 90)
+				(at 19.05 -68.58 90)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -800,7 +800,7 @@
 				)
 			)
 			(pin passive line
-				(at 16.51 -68.58 90)
+				(at 19.05 -68.58 90)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -819,7 +819,7 @@
 				)
 			)
 			(pin passive line
-				(at 16.51 -68.58 90)
+				(at 19.05 -68.58 90)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -838,7 +838,7 @@
 				)
 			)
 			(pin passive line
-				(at 16.51 -68.58 90)
+				(at 19.05 -68.58 90)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -857,7 +857,7 @@
 				)
 			)
 			(pin passive line
-				(at 16.51 -68.58 90)
+				(at 19.05 -68.58 90)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -876,7 +876,7 @@
 				)
 			)
 			(pin passive line
-				(at 16.51 -68.58 90)
+				(at 19.05 -68.58 90)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -895,7 +895,7 @@
 				)
 			)
 			(pin passive line
-				(at 16.51 -68.58 90)
+				(at 19.05 -68.58 90)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -918,7 +918,7 @@
 			(unit_name "Main Symbol")
 			(rectangle
 				(start 0 0)
-				(end 33.02 -63.5)
+				(end 38.1 -63.5)
 				(stroke
 					(width 0)
 					(type solid)
@@ -1213,7 +1213,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
-			(at -2.54 5.08 0)
+			(at -9.652 9.144 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1224,7 +1224,7 @@
 			)
 		)
 		(property "Value" "MIMXRT1171DVMAB"
-			(at -2.54 2.54 0)
+			(at -9.652 6.604 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1234,8 +1234,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 0)
+		(property "Footprint" "Package_BGA:MAPBGA-289_14x14mm_Layout17x17_P0.8mm"
+			(at -7.112 4.064 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -1485,7 +1485,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 33.02 5.08 270)
+				(at 38.1 5.08 270)
 				(length 5.08)
 				(name "NVCC_EMC1"
 					(effects
@@ -1503,7 +1503,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 33.02 5.08 270)
+				(at 38.1 5.08 270)
 				(length 5.08)
 				(hide yes)
 				(name "NVCC_EMC1"
@@ -1634,7 +1634,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 33.02 5.08 270)
+				(at 38.1 5.08 270)
 				(length 5.08)
 				(hide yes)
 				(name "NVCC_EMC1"
@@ -1748,7 +1748,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 40.64 5.08 270)
+				(at 43.18 5.08 270)
 				(length 5.08)
 				(name "VDD_USB_3P3"
 					(effects
@@ -1821,7 +1821,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 35.56 5.08 270)
+				(at 30.48 5.08 270)
 				(length 5.08)
 				(name "NVCC_EMC2"
 					(effects
@@ -1951,7 +1951,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 35.56 5.08 270)
+				(at 30.48 5.08 270)
 				(length 5.08)
 				(hide yes)
 				(name "NVCC_EMC2"
@@ -2065,7 +2065,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 45.72 5.08 270)
+				(at 48.26 5.08 270)
 				(length 5.08)
 				(name "VDDA_ADC_3P3"
 					(effects
@@ -2454,7 +2454,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 30.48 5.08 270)
+				(at 40.64 5.08 270)
 				(length 5.08)
 				(name "NVCC_GPIO"
 					(effects
@@ -2564,7 +2564,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 38.1 5.08 270)
+				(at 33.02 5.08 270)
 				(length 5.08)
 				(name "NVCC_LPSR"
 					(effects
@@ -2675,7 +2675,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 43.18 5.08 270)
+				(at 45.72 5.08 270)
 				(length 5.08)
 				(name "VDD_LPSR_IN"
 					(effects
@@ -2748,7 +2748,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 58.42 -36.83 180)
+				(at 60.96 -36.83 180)
 				(length 5.08)
 				(name "RTC_XTALI"
 					(effects
@@ -2784,7 +2784,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 58.42 -16.51 180)
+				(at 60.96 -16.51 180)
 				(length 5.08)
 				(name "XTALO"
 					(effects
@@ -2877,7 +2877,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 50.8 5.08 270)
+				(at 53.34 5.08 270)
 				(length 5.08)
 				(name "VDD_SNVS_IN"
 					(effects
@@ -2895,7 +2895,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 58.42 -44.45 180)
+				(at 60.96 -44.45 180)
 				(length 5.08)
 				(name "RTC_XTALO"
 					(effects
@@ -2931,7 +2931,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 58.42 -24.13 180)
+				(at 60.96 -24.13 180)
 				(length 5.08)
 				(name "XTALI"
 					(effects
@@ -2972,7 +2972,7 @@
 			(unit_name "Power")
 			(rectangle
 				(start 0 0)
-				(end 53.34 -95.25)
+				(end 55.88 -95.25)
 				(stroke
 					(width 0)
 					(type solid)
@@ -3372,34 +3372,16 @@
 				)
 			)
 			(pin unspecified line
-				(at -5.08 -33.02 0)
-				(length 5.08)
-				(name "GPIO_AD_24"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "L13"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
 				(at -5.08 -35.56 0)
 				(length 5.08)
-				(name "GPIO_AD_25"
+				(name "GPIO_LPSR_09"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "M15"
+				(number "P5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3515,6 +3497,24 @@
 					)
 				)
 			)
+			(pin unspecified line
+				(at -5.08 -33.02 0)
+				(length 5.08)
+				(name "GPIO_LPSR_08"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "U8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
 		(symbol "MIMXRT1171DVMAB_2_1"
 			(unit_name "Configuration")
@@ -3529,7 +3529,7 @@
 					(type background)
 				)
 			)
-			(text "(1.8V Logic)"
+			(text "(1.75V SNVS Domain)"
 				(at 7.62 -48.26 0)
 				(effects
 					(font
@@ -3538,8 +3538,8 @@
 					(justify left)
 				)
 			)
-			(text "LP_UART1_TX"
-				(at 12.7 -33.02 0)
+			(text "LPUART11_TX"
+				(at 15.24 -33.02 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3547,8 +3547,8 @@
 					(justify left)
 				)
 			)
-			(text "LP_UART1_RX"
-				(at 12.7 -35.56 0)
+			(text "LPUART11_RX"
+				(at 15.24 -35.56 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3758,88 +3758,16 @@
 		(symbol "MIMXRT1171DVMAB_3_0"
 			(unit_name "User I/O")
 			(pin unspecified line
-				(at 43.18 -5.08 180)
-				(length 5.08)
-				(name "GPIO_SD_B1_05"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "A16"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 43.18 -2.54 180)
-				(length 5.08)
-				(name "GPIO_SD_B1_04"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "B15"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 43.18 -7.62 180)
-				(length 5.08)
-				(name "GPIO_SD_B1_00"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "B16"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
 				(at 43.18 -20.32 180)
 				(length 5.08)
-				(name "GPIO_SD_B1_03"
+				(name "???"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "B17"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 43.18 -17.78 180)
-				(length 5.08)
-				(name "GPIO_SD_B1_02"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "C15"
+				(number "???"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3848,16 +3776,124 @@
 				)
 			)
 			(pin unspecified line
-				(at 43.18 -12.7 180)
+				(at 43.18 -22.86 180)
 				(length 5.08)
-				(name "GPIO_SD_B1_01"
+				(name "???"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "D15"
+				(number "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 43.18 -25.4 180)
+				(length 5.08)
+				(name "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 43.18 -43.18 180)
+				(length 5.08)
+				(name "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 43.18 -45.72 180)
+				(length 5.08)
+				(name "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 43.18 -48.26 180)
+				(length 5.08)
+				(name "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 43.18 -53.34 180)
+				(length 5.08)
+				(name "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 43.18 -35.56 180)
+				(length 5.08)
+				(name "GPIO_DISP_B2_13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3867,6 +3903,60 @@
 			)
 			(pin unspecified line
 				(at 43.18 -33.02 180)
+				(length 5.08)
+				(name "GPIO_DISP_B2_11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 43.18 -38.1 180)
+				(length 5.08)
+				(name "GPIO_DISP_B2_12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 43.18 -30.48 180)
+				(length 5.08)
+				(name "GPIO_DISP_B2_10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "D9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -5.08 -7.62 0)
 				(length 5.08)
 				(name "USB1_VBUS"
 					(effects
@@ -3884,7 +3974,43 @@
 				)
 			)
 			(pin unspecified line
-				(at 43.18 -35.56 180)
+				(at 43.18 -5.08 180)
+				(length 5.08)
+				(name "GPIO_SD_B2_05"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "E14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 43.18 -7.62 180)
+				(length 5.08)
+				(name "GPIO_SD_B2_03"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "E15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -5.08 -10.16 0)
 				(length 5.08)
 				(name "USB1_DN"
 					(effects
@@ -3902,7 +4028,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 43.18 -38.1 180)
+				(at -5.08 -12.7 0)
 				(length 5.08)
 				(name "USB1_DP"
 					(effects
@@ -3912,6 +4038,42 @@
 					)
 				)
 				(number "E17"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 43.18 -2.54 180)
+				(length 5.08)
+				(name "GPIO_SD_B2_04"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "F14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 43.18 -10.16 180)
+				(length 5.08)
+				(name "GPIO_SD_B2_02"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "H13"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3937,18 +4099,90 @@
 					)
 				)
 			)
+			(pin unspecified line
+				(at 43.18 -12.7 180)
+				(length 5.08)
+				(name "GPIO_SD_B2_01"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "J14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 43.18 -15.24 180)
+				(length 5.08)
+				(name "GPIO_SD_B2_00"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "J15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
 		(symbol "MIMXRT1171DVMAB_3_1"
 			(unit_name "User I/O")
 			(rectangle
 				(start 0 0)
-				(end 38.1 -40.64)
+				(end 38.1 -63.5)
 				(stroke
 					(width 0)
 					(type solid)
 				)
 				(fill
 					(type background)
+				)
+			)
+			(text "LPUART2_TXD"
+				(at 20.32 -30.48 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(text "LPUART2_RXD"
+				(at 20.32 -33.02 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(text "LPUART2_RTS_B"
+				(at 20.32 -35.56 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(text "LPUART2_CTS_B"
+				(at 20.32 -38.1 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
 				)
 			)
 		)
@@ -4001,42 +4235,6 @@
 					)
 				)
 				(number "A4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 50.8 -20.32 0)
-				(length 5.08)
-				(name "GPIO_DISP_B2_13"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "A5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 50.8 -22.86 0)
-				(length 5.08)
-				(name "GPIO_DISP_B2_11"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "A6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4171,6 +4369,24 @@
 				)
 			)
 			(pin unspecified line
+				(at 12.7 -160.02 0)
+				(length 5.08)
+				(name "GPIO_SD_B1_05"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
 				(at 50.8 -27.94 0)
 				(length 5.08)
 				(name "GPIO_EMC_B1_14"
@@ -4253,24 +4469,6 @@
 					)
 				)
 				(number "B5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 50.8 -40.64 0)
-				(length 5.08)
-				(name "GPIO_DISP_B2_12"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "B6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4379,6 +4577,60 @@
 					)
 				)
 				(number "B13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 12.7 -157.48 0)
+				(length 5.08)
+				(name "GPIO_SD_B1_04"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 12.7 -149.86 0)
+				(length 5.08)
+				(name "GPIO_SD_B1_00"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 12.7 -154.94 0)
+				(length 5.08)
+				(name "GPIO_SD_B1_03"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B17"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4505,6 +4757,24 @@
 					)
 				)
 				(number "C11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 12.7 -152.4 0)
+				(length 5.08)
+				(name "GPIO_SD_B1_02"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C15"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4657,24 +4927,6 @@
 				)
 			)
 			(pin unspecified line
-				(at 50.8 -76.2 0)
-				(length 5.08)
-				(name "GPIO_DISP_B2_10"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "D9"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
 				(at 50.8 -78.74 0)
 				(length 5.08)
 				(name "GPIO_DISP_B1_02"
@@ -4703,6 +4955,24 @@
 					)
 				)
 				(number "D13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 12.7 -147.32 0)
+				(length 5.08)
+				(name "GPIO_SD_B1_01"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "D15"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4891,42 +5161,6 @@
 				)
 			)
 			(pin unspecified line
-				(at 50.8 -106.68 0)
-				(length 5.08)
-				(name "GPIO_SD_B2_05"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "E14"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 50.8 -109.22 0)
-				(length 5.08)
-				(name "GPIO_SD_B2_03"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "E15"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
 				(at 50.8 -111.76 0)
 				(length 5.08)
 				(name "GPIO_EMC_B1_35"
@@ -5017,24 +5251,6 @@
 				)
 			)
 			(pin unspecified line
-				(at 50.8 -124.46 0)
-				(length 5.08)
-				(name "GPIO_SD_B2_04"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "F14"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
 				(at 50.8 -127 0)
 				(length 5.08)
 				(name "GPIO_EMC_B1_36"
@@ -5107,7 +5323,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 12.7 -48.26 0)
+				(at 12.7 -167.64 0)
 				(length 5.08)
 				(name "GPIO_AD_35"
 					(effects
@@ -5215,25 +5431,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 50.8 -149.86 0)
-				(length 5.08)
-				(name "GPIO_SD_B2_02"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "H13"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 12.7 -50.8 0)
+				(at 12.7 -165.1 0)
 				(length 5.08)
 				(name "GPIO_AD_33"
 					(effects
@@ -5359,43 +5557,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 12.7 -53.34 0)
-				(length 5.08)
-				(name "GPIO_SD_B2_01"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "J14"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 12.7 -55.88 0)
-				(length 5.08)
-				(name "GPIO_SD_B2_00"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "J15"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 12.7 -12.7 0)
+				(at 12.7 -170.18 0)
 				(length 5.08)
 				(name "GPIO_AD_34"
 					(effects
@@ -5431,7 +5593,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 12.7 -58.42 0)
+				(at 12.7 -53.34 0)
 				(length 5.08)
 				(name "GPIO_EMC_B1_40"
 					(effects
@@ -5575,7 +5737,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 12.7 -17.78 0)
+				(at 12.7 -162.56 0)
 				(length 5.08)
 				(name "GPIO_AD_32"
 					(effects
@@ -5611,7 +5773,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 12.7 -71.12 0)
+				(at 12.7 -55.88 0)
 				(length 5.08)
 				(name "GPIO_EMC_B1_41"
 					(effects
@@ -5693,6 +5855,24 @@
 					)
 				)
 				(number "L12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 12.7 -48.26 0)
+				(length 5.08)
+				(name "GPIO_AD_24"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "L13"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5891,6 +6071,24 @@
 					)
 				)
 				(number "M14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 12.7 -50.8 0)
+				(length 5.08)
+				(name "GPIO_AD_25"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "M15"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -6215,24 +6413,6 @@
 					)
 				)
 				(number "P2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 12.7 -109.22 0)
-				(length 5.08)
-				(name "GPIO_LPSR_09"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "P5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -6791,24 +6971,6 @@
 					)
 				)
 				(number "U6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 12.7 -144.78 0)
-				(length 5.08)
-				(name "GPIO_LPSR_08"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "U8"
 					(effects
 						(font
 							(size 1.27 1.27)

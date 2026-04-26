@@ -228,6 +228,207 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:LED"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R_Small_US"
 			(pin_numbers
 				(hide yes)
@@ -365,6 +566,167 @@
 					(at 0 -2.54 90)
 					(length 1.016)
 					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Switch:SW_Push"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SW_Push"
+				(at 0 -1.524 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Push button switch, generic, two pins"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SW_Push_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2119,7 +2481,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 33.02 5.08 270)
+					(at 38.1 5.08 270)
 					(length 5.08)
 					(name "NVCC_EMC1"
 						(effects
@@ -2137,7 +2499,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 33.02 5.08 270)
+					(at 38.1 5.08 270)
 					(length 5.08)
 					(hide yes)
 					(name "NVCC_EMC1"
@@ -2268,7 +2630,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 33.02 5.08 270)
+					(at 38.1 5.08 270)
 					(length 5.08)
 					(hide yes)
 					(name "NVCC_EMC1"
@@ -2382,7 +2744,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 40.64 5.08 270)
+					(at 43.18 5.08 270)
 					(length 5.08)
 					(name "VDD_USB_3P3"
 						(effects
@@ -2455,7 +2817,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 35.56 5.08 270)
+					(at 30.48 5.08 270)
 					(length 5.08)
 					(name "NVCC_EMC2"
 						(effects
@@ -2585,7 +2947,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 35.56 5.08 270)
+					(at 30.48 5.08 270)
 					(length 5.08)
 					(hide yes)
 					(name "NVCC_EMC2"
@@ -2699,7 +3061,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 45.72 5.08 270)
+					(at 48.26 5.08 270)
 					(length 5.08)
 					(name "VDDA_ADC_3P3"
 						(effects
@@ -3088,7 +3450,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 30.48 5.08 270)
+					(at 40.64 5.08 270)
 					(length 5.08)
 					(name "NVCC_GPIO"
 						(effects
@@ -3198,7 +3560,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 38.1 5.08 270)
+					(at 33.02 5.08 270)
 					(length 5.08)
 					(name "NVCC_LPSR"
 						(effects
@@ -3309,7 +3671,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 43.18 5.08 270)
+					(at 45.72 5.08 270)
 					(length 5.08)
 					(name "VDD_LPSR_IN"
 						(effects
@@ -3382,7 +3744,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 58.42 -36.83 180)
+					(at 60.96 -36.83 180)
 					(length 5.08)
 					(name "RTC_XTALI"
 						(effects
@@ -3418,7 +3780,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 58.42 -16.51 180)
+					(at 60.96 -16.51 180)
 					(length 5.08)
 					(name "XTALO"
 						(effects
@@ -3511,7 +3873,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 50.8 5.08 270)
+					(at 53.34 5.08 270)
 					(length 5.08)
 					(name "VDD_SNVS_IN"
 						(effects
@@ -3529,7 +3891,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 58.42 -44.45 180)
+					(at 60.96 -44.45 180)
 					(length 5.08)
 					(name "RTC_XTALO"
 						(effects
@@ -3565,7 +3927,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 58.42 -24.13 180)
+					(at 60.96 -24.13 180)
 					(length 5.08)
 					(name "XTALI"
 						(effects
@@ -3606,7 +3968,7 @@
 				(unit_name "Power")
 				(rectangle
 					(start 0 0)
-					(end 53.34 -95.25)
+					(end 55.88 -95.25)
 					(stroke
 						(width 0)
 						(type solid)
@@ -4391,6 +4753,42 @@
 			)
 			(symbol "MIMXRT1171DVMAB_3_0"
 				(unit_name "User I/O")
+				(pin unspecified line
+					(at -5.08 -33.02 0)
+					(length 5.08)
+					(name "???"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "???"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -40.64 0)
+					(length 5.08)
+					(name "???"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "???"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin unspecified line
 					(at 43.18 -20.32 180)
 					(length 5.08)
@@ -7729,16 +8127,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "TODO: Need SDIO pull-ups (2.2.1)"
-		(exclude_from_sim no)
-		(at 155.194 131.572 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "39b7e3c5-de16-4468-8ace-685805c1d412")
-	)
 	(text "TODO: Where to route this 1.8V DAC?"
 		(exclude_from_sim no)
 		(at 107.95 142.24 0)
@@ -7752,7 +8140,7 @@
 	)
 	(text "Solder male header and\nuse StarTech USBMBADAPT\nadapter (or similar)"
 		(exclude_from_sim no)
-		(at 96.52 163.83 0)
+		(at 80.772 150.368 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7765,6 +8153,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "215f76a7-af2e-467e-86b9-d87324dc755d")
+	)
+	(junction
+		(at 105.41 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6c84498f-9c6b-48c6-8998-52bfe7f27913")
 	)
 	(no_connect
 		(at 172.72 198.12)
@@ -7802,6 +8196,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 172.72) (xy 105.41 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "189689f5-a3a0-4fb6-8f63-234934220309")
+	)
+	(wire
+		(pts
 			(xy 157.48 160.02) (xy 172.72 160.02)
 		)
 		(stroke
@@ -7809,6 +8213,16 @@
 			(type default)
 		)
 		(uuid "25e68bbd-797f-42a0-b5f9-b8035860c88c")
+	)
+	(wire
+		(pts
+			(xy 105.41 171.45) (xy 105.41 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a3953d4-80d8-47ea-a2cc-af9185f69826")
 	)
 	(wire
 		(pts
@@ -7962,6 +8376,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 172.72) (xy 109.22 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2894592-222d-464f-aa8e-0092a7e1f6b0")
+	)
+	(wire
+		(pts
 			(xy 191.77 133.35) (xy 191.77 134.62)
 		)
 		(stroke
@@ -8051,7 +8475,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "26f844a4-c0ab-4ff0-b571-a64310bf1c96")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR08"
 			(at 201.93 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -8111,7 +8535,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/6621ad73-535c-4bcc-996a-e9110ae66d56"
-					(reference "#PWR060")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -8128,7 +8552,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2bf7e2a7-2df1-43b7-8c54-00b2c3d61386")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR04"
 			(at 106.68 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -8188,7 +8612,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/6621ad73-535c-4bcc-996a-e9110ae66d56"
-					(reference "#PWR062")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -8206,7 +8630,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "39120a34-57a6-41b4-b8bd-540ed4c3d09f")
-		(property "Reference" "J4"
+		(property "Reference" "J1"
 			(at 99.06 149.8599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8276,7 +8700,165 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/6621ad73-535c-4bcc-996a-e9110ae66d56"
-					(reference "J4")
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 91.44 172.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "50ce38b0-bac0-40c0-bf8b-ff0094aef22d")
+		(property "Reference" "#PWR01"
+			(at 91.44 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 91.44 176.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 91.44 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 91.44 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9d53b37f-d8f7-4c0a-b52c-e7bc241ea3cd")
+		)
+		(instances
+			(project "DEV-G2-NANO"
+				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/6621ad73-535c-4bcc-996a-e9110ae66d56"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 105.41 168.91 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "519beaa6-dc70-4397-a906-3b617b632548")
+		(property "Reference" "R1"
+			(at 106.934 168.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10kΩ"
+			(at 106.934 166.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 105.41 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 105.41 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "0469e800-4d39-46e7-a52c-ab767e4c1b13")
+		)
+		(pin "1"
+			(uuid "fc462b92-d138-4411-8c99-4a7926f78a60")
+		)
+		(instances
+			(project "DEV-G2-NANO"
+				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/6621ad73-535c-4bcc-996a-e9110ae66d56"
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -8293,7 +8875,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9a50a39f-5f03-409d-8250-448212d3af34")
-		(property "Reference" "R33"
+		(property "Reference" "R3"
 			(at 171.196 202.184 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8357,7 +8939,179 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/6621ad73-535c-4bcc-996a-e9110ae66d56"
-					(reference "R33")
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 96.52 172.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "af732958-34bc-448d-8dac-54dc3006feb5")
+		(property "Reference" "SW1"
+			(at 96.52 167.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PTS815"
+			(at 96.52 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "project_footprints:PTS815"
+			(at 96.52 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 96.52 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "0b1306e3-d622-4e09-9a85-a1dad29765d7")
+		)
+		(pin "1"
+			(uuid "781575b5-2435-40c1-b4ba-d6e6ba59a011")
+		)
+		(instances
+			(project "DEV-G2-NANO"
+				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/6621ad73-535c-4bcc-996a-e9110ae66d56"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 100.33 180.34 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b581e1f1-9104-4291-9891-ca36fedecce2")
+		(property "Reference" "D1"
+			(at 100.33 177.546 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RED"
+			(at 98.7425 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 100.33 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 100.33 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f6a9aaa6-d554-47a4-b785-7af3119e6118")
+		)
+		(pin "1"
+			(uuid "bfea2ab6-266b-4152-a4e5-0edf79871adc")
+		)
+		(instances
+			(project "DEV-G2-NANO"
+				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/6621ad73-535c-4bcc-996a-e9110ae66d56"
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -8374,7 +9128,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c2029a22-9a3a-4df6-be40-debd9561bb81")
-		(property "Reference" "U3"
+		(property "Reference" "U1"
 			(at 133.096 135.128 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9315,11 +10069,171 @@
 		(pin "???"
 			(uuid "b4293b63-c593-4662-add0-8b950d4a7a67")
 		)
+		(pin "???"
+			(uuid "cc8b02c2-626e-4b04-9ad6-f05a4e92b3f0")
+		)
+		(pin "???"
+			(uuid "331679c5-9281-469c-8c6b-fd344eeb9f79")
+		)
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/6621ad73-535c-4bcc-996a-e9110ae66d56"
-					(reference "U3")
+					(reference "U1")
 					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 96.52 180.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ccb65a87-2bcc-410e-b56f-67d9c7d0fe21")
+		(property "Reference" "#PWR02"
+			(at 96.52 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 96.52 184.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 96.52 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0e7553b8-2a0d-4dc4-9b61-d606d0ea9a30")
+		)
+		(instances
+			(project "DEV-G2-NANO"
+				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/6621ad73-535c-4bcc-996a-e9110ae66d56"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+1V0")
+		(at 105.41 166.37 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d024070f-4161-46bd-9787-b4d11f97e8c8")
+		(property "Reference" "#PWR03"
+			(at 105.41 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 104.648 162.814 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 105.41 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V0\""
+			(at 105.41 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9a324ce8-26e9-4a79-bc86-3f6cbe6724cf")
+		)
+		(instances
+			(project "DEV-G2-NANO"
+				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/6621ad73-535c-4bcc-996a-e9110ae66d56"
+					(reference "#PWR03")
+					(unit 1)
 				)
 			)
 		)
@@ -9336,7 +10250,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d21aebe3-92b5-4883-aadd-6a4145100b2c")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR05"
 			(at 172.72 212.09 0)
 			(hide yes)
 			(show_name no)
@@ -9396,7 +10310,86 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/6621ad73-535c-4bcc-996a-e9110ae66d56"
-					(reference "#PWR063")
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 106.68 180.34 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "dca70c10-bfbe-47e4-992f-c92979890925")
+		(property "Reference" "R2"
+			(at 106.68 177.546 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "???"
+			(at 106.68 183.134 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 106.68 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f3f7b37a-e135-4545-995d-271cb3b81216")
+		)
+		(pin "2"
+			(uuid "68bf1488-47d8-45f0-9313-ed708efd4b86")
+		)
+		(instances
+			(project "DEV-G2-NANO"
+				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/6621ad73-535c-4bcc-996a-e9110ae66d56"
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -9414,7 +10407,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e8225451-b48c-4ae0-96bb-f8b639c202c8")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR07"
 			(at 196.85 214.63 0)
 			(hide yes)
 			(show_name no)
@@ -9474,7 +10467,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/6621ad73-535c-4bcc-996a-e9110ae66d56"
-					(reference "#PWR065")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -9491,7 +10484,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ea6e8d08-0a01-4ebe-91ab-d6f8b0279b88")
-		(property "Reference" "U1"
+		(property "Reference" "U2"
 			(at 208.534 205.74 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9721,7 +10714,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/6621ad73-535c-4bcc-996a-e9110ae66d56"
-					(reference "U1")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -9738,7 +10731,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f5535037-6bda-4eb6-affc-814e6d72db01")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR06"
 			(at 194.31 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -9798,7 +10791,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/6621ad73-535c-4bcc-996a-e9110ae66d56"
-					(reference "#PWR061")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)

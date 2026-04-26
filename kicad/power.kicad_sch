@@ -7598,6 +7598,16 @@
 		)
 		(uuid "3d3789d1-4848-414d-af50-41c19d5ebb3d")
 	)
+	(text "1.8V supply must be delayed by\nat least 1.15ms for the MAYA-W1"
+		(exclude_from_sim no)
+		(at 222.25 200.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "cf16ea7a-fe4f-42e5-befb-460571cdf0d3")
+	)
 	(junction
 		(at 242.57 186.69)
 		(diameter 0)
@@ -7641,7 +7651,7 @@
 		(uuid "1b698bbf-13f8-4c16-b602-b1d4cb1bdedf")
 	)
 	(junction
-		(at 209.55 154.94)
+		(at 209.55 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "206b402b-8fc5-4b35-9175-e856428e6ec7")
@@ -7653,13 +7663,7 @@
 		(uuid "213264e5-5019-4eb3-bb6a-c55fd7d3e64e")
 	)
 	(junction
-		(at 59.69 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "24f21349-32ba-417b-a550-d2229c5ffbca")
-	)
-	(junction
-		(at 237.49 154.94)
+		(at 237.49 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "34a0ab9c-cf5e-4b58-9fb1-4dd36213a1d4")
@@ -7671,7 +7675,7 @@
 		(uuid "3aee3af9-f9bd-4fc1-897a-afde0dd2f041")
 	)
 	(junction
-		(at 209.55 186.69)
+		(at 198.12 186.69)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "40d2124b-1625-4bd7-a1d5-7071ec356ed2")
@@ -7713,7 +7717,7 @@
 		(uuid "65e4ed12-fd98-4123-bd40-05525521be2b")
 	)
 	(junction
-		(at 209.55 162.56)
+		(at 209.55 168.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6f841819-1f5d-4402-ade2-3f1084fef346")
@@ -7773,7 +7777,13 @@
 		(uuid "ac3afa22-500b-4064-8744-0d1ffee3c9bc")
 	)
 	(junction
-		(at 237.49 157.48)
+		(at 265.43 165.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aedda328-961b-476f-b1d6-b5218bc7e846")
+	)
+	(junction
+		(at 237.49 163.83)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bdd9e043-ce91-4240-9cd5-ea9162801f93")
@@ -7785,19 +7795,13 @@
 		(uuid "c0ce3b7b-2852-40fb-8f59-1c2295a74a2c")
 	)
 	(junction
-		(at 212.09 186.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c6d94251-5ca1-4538-953a-9b001965bfe9")
-	)
-	(junction
 		(at 104.14 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c7fb79ea-90c3-49e4-aa9f-a377f75dc505")
 	)
 	(junction
-		(at 209.55 194.31)
+		(at 198.12 194.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e5df8ee4-fc52-49de-a153-45e2f9077e5b")
@@ -7827,13 +7831,13 @@
 		(uuid "f5d98246-ff3e-442f-9e49-920c0fcf98ed")
 	)
 	(junction
-		(at 212.09 154.94)
+		(at 212.09 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f5eecbda-234c-4587-8e61-f01d82bf3004")
 	)
 	(junction
-		(at 242.57 154.94)
+		(at 242.57 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f9c84e65-a79d-424b-b61f-cb092076f0fe")
@@ -7849,7 +7853,7 @@
 		(uuid "f26390eb-ad34-4bb4-8266-dd7e91bfd3a7")
 	)
 	(no_connect
-		(at 231.14 162.56)
+		(at 231.14 168.91)
 		(uuid "fd01b2e9-04b6-476b-9e4a-44bce596d81a")
 	)
 	(wire
@@ -7944,6 +7948,16 @@
 	)
 	(wire
 		(pts
+			(xy 265.43 165.1) (xy 265.43 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b7b08f7-8e68-4605-9244-c0a6d1d1d274")
+	)
+	(wire
+		(pts
 			(xy 80.01 40.64) (xy 80.01 43.18)
 		)
 		(stroke
@@ -7954,7 +7968,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 154.94) (xy 212.09 157.48)
+			(xy 212.09 161.29) (xy 212.09 163.83)
 		)
 		(stroke
 			(width 0)
@@ -8031,16 +8045,6 @@
 			(type default)
 		)
 		(uuid "18d361d9-faa8-4fb1-87e8-a33ea1ddb7c7")
-	)
-	(wire
-		(pts
-			(xy 212.09 189.23) (xy 213.36 189.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "199c0a59-00d2-4436-b767-3b66db80d8f3")
 	)
 	(wire
 		(pts
@@ -8124,7 +8128,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 160.02) (xy 237.49 157.48)
+			(xy 237.49 166.37) (xy 237.49 163.83)
 		)
 		(stroke
 			(width 0)
@@ -8141,16 +8145,6 @@
 			(type default)
 		)
 		(uuid "2cfa000f-905d-49a1-a219-3f3bd59991ae")
-	)
-	(wire
-		(pts
-			(xy 209.55 186.69) (xy 212.09 186.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2f69bdfd-e3f8-4d49-88e7-193b07f75c82")
 	)
 	(wire
 		(pts
@@ -8194,7 +8188,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 154.94) (xy 212.09 154.94)
+			(xy 209.55 161.29) (xy 212.09 161.29)
 		)
 		(stroke
 			(width 0)
@@ -8224,7 +8218,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 157.48) (xy 237.49 154.94)
+			(xy 237.49 163.83) (xy 237.49 161.29)
 		)
 		(stroke
 			(width 0)
@@ -8244,7 +8238,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 153.67) (xy 242.57 154.94)
+			(xy 242.57 160.02) (xy 242.57 161.29)
 		)
 		(stroke
 			(width 0)
@@ -8284,7 +8278,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 163.83) (xy 209.55 162.56)
+			(xy 209.55 170.18) (xy 209.55 168.91)
 		)
 		(stroke
 			(width 0)
@@ -8334,7 +8328,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 154.94) (xy 212.09 154.94)
+			(xy 213.36 161.29) (xy 212.09 161.29)
 		)
 		(stroke
 			(width 0)
@@ -8354,7 +8348,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 157.48) (xy 237.49 157.48)
+			(xy 231.14 163.83) (xy 237.49 163.83)
 		)
 		(stroke
 			(width 0)
@@ -8404,7 +8398,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 153.67) (xy 209.55 154.94)
+			(xy 209.55 160.02) (xy 209.55 161.29)
 		)
 		(stroke
 			(width 0)
@@ -8474,7 +8468,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 215.9) (xy 229.87 217.17)
+			(xy 229.87 139.7) (xy 229.87 140.97)
 		)
 		(stroke
 			(width 0)
@@ -8531,16 +8525,6 @@
 			(type default)
 		)
 		(uuid "705c3a36-72b6-4709-9636-d218ab8b7c89")
-	)
-	(wire
-		(pts
-			(xy 59.69 87.63) (xy 59.69 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "706ca866-4074-40cf-9519-f7e22e5626ce")
 	)
 	(wire
 		(pts
@@ -8604,7 +8588,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 186.69) (xy 212.09 186.69)
+			(xy 198.12 186.69) (xy 213.36 186.69)
 		)
 		(stroke
 			(width 0)
@@ -8644,16 +8628,6 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 186.69) (xy 212.09 189.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "873b6f4f-2ab0-427b-b3ed-88671c9279ca")
-	)
-	(wire
-		(pts
 			(xy 48.26 120.65) (xy 48.26 127)
 		)
 		(stroke
@@ -8684,7 +8658,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 193.04) (xy 209.55 194.31)
+			(xy 198.12 193.04) (xy 198.12 194.31)
 		)
 		(stroke
 			(width 0)
@@ -8714,7 +8688,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 156.21) (xy 242.57 154.94)
+			(xy 242.57 162.56) (xy 242.57 161.29)
 		)
 		(stroke
 			(width 0)
@@ -8731,6 +8705,16 @@
 			(type default)
 		)
 		(uuid "910945ab-790d-423a-be2f-f8e8703a28fd")
+	)
+	(wire
+		(pts
+			(xy 269.24 165.1) (xy 265.43 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93229c05-ecf5-4ae8-9882-4f4d8bf8df68")
 	)
 	(wire
 		(pts
@@ -8754,7 +8738,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 214.63) (xy 214.63 215.9)
+			(xy 214.63 138.43) (xy 214.63 139.7)
 		)
 		(stroke
 			(width 0)
@@ -8774,16 +8758,6 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 87.63) (xy 72.39 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9936a40b-279e-4d7e-a289-53c33889bef0")
-	)
-	(wire
-		(pts
 			(xy 71.12 140.97) (xy 71.12 142.24)
 		)
 		(stroke
@@ -8794,7 +8768,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 187.96) (xy 209.55 186.69)
+			(xy 198.12 187.96) (xy 198.12 186.69)
 		)
 		(stroke
 			(width 0)
@@ -8854,6 +8828,16 @@
 	)
 	(wire
 		(pts
+			(xy 265.43 163.83) (xy 265.43 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0b0c6b6-3627-4c81-9aa6-2654dfd09fec")
+	)
+	(wire
+		(pts
 			(xy 231.14 191.77) (xy 237.49 191.77)
 		)
 		(stroke
@@ -8864,7 +8848,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 154.94) (xy 242.57 154.94)
+			(xy 237.49 161.29) (xy 242.57 161.29)
 		)
 		(stroke
 			(width 0)
@@ -8874,7 +8858,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 162.56) (xy 213.36 162.56)
+			(xy 209.55 168.91) (xy 213.36 168.91)
 		)
 		(stroke
 			(width 0)
@@ -8884,7 +8868,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 215.9) (xy 215.9 215.9)
+			(xy 214.63 139.7) (xy 215.9 139.7)
 		)
 		(stroke
 			(width 0)
@@ -8914,7 +8898,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 195.58) (xy 209.55 194.31)
+			(xy 198.12 195.58) (xy 198.12 194.31)
 		)
 		(stroke
 			(width 0)
@@ -8924,7 +8908,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 157.48) (xy 213.36 157.48)
+			(xy 212.09 163.83) (xy 213.36 163.83)
 		)
 		(stroke
 			(width 0)
@@ -8984,7 +8968,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 185.42) (xy 209.55 186.69)
+			(xy 198.12 185.42) (xy 198.12 186.69)
 		)
 		(stroke
 			(width 0)
@@ -9054,7 +9038,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 160.02) (xy 237.49 160.02)
+			(xy 231.14 166.37) (xy 237.49 166.37)
 		)
 		(stroke
 			(width 0)
@@ -9074,7 +9058,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 156.21) (xy 209.55 154.94)
+			(xy 209.55 162.56) (xy 209.55 161.29)
 		)
 		(stroke
 			(width 0)
@@ -9084,7 +9068,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 215.9) (xy 229.87 215.9)
+			(xy 228.6 139.7) (xy 229.87 139.7)
 		)
 		(stroke
 			(width 0)
@@ -9184,7 +9168,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 154.94) (xy 237.49 154.94)
+			(xy 236.22 161.29) (xy 237.49 161.29)
 		)
 		(stroke
 			(width 0)
@@ -9244,7 +9228,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 161.29) (xy 209.55 162.56)
+			(xy 209.55 167.64) (xy 209.55 168.91)
 		)
 		(stroke
 			(width 0)
@@ -9424,7 +9408,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 194.31) (xy 213.36 194.31)
+			(xy 198.12 194.31) (xy 213.36 194.31)
 		)
 		(stroke
 			(width 0)
@@ -9441,16 +9425,6 @@
 			(type default)
 		)
 		(uuid "f11c3b57-1bc5-496d-8a9d-49e3224af26f")
-	)
-	(wire
-		(pts
-			(xy 59.69 86.36) (xy 59.69 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f4398ac4-591f-4e9a-b1dd-dd5935b5ce9f")
 	)
 	(wire
 		(pts
@@ -9522,19 +9496,19 @@
 		)
 		(uuid "ff233390-af4d-44ec-996f-bf5ad24dcfdd")
 	)
-	(symbol
-		(lib_id "power:GND")
-		(at 59.69 93.98 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "03f5f49e-efbd-4c64-90e3-9db2a972add5")
-		(property "Reference" "#PWR022"
-			(at 59.69 100.33 0)
+	(global_label "RC_DELAY"
+		(shape output)
+		(at 269.24 165.1 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3376de40-4726-4a11-bae7-74b8743f4146")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 284.7437 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9542,20 +9516,23 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "GND"
-			(at 59.69 97.79 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+	)
+	(global_label "RC_DELAY"
+		(shape input)
+		(at 72.39 87.63 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify right)
 		)
-		(property "Footprint" ""
-			(at 59.69 93.98 0)
+		(uuid "96612ba6-c18e-40a4-a3e5-296396002c04")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 56.8863 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9563,10 +9540,23 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Datasheet" ""
-			(at 59.69 93.98 0)
+	)
+	(global_label "RC_DELAY"
+		(shape input)
+		(at 213.36 189.23 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d3c17b13-d429-4357-85ac-4630e5d18442")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 197.8563 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9574,28 +9564,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 59.69 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e978dfe4-3874-4920-a789-600d431860fd")
-		)
-		(instances
-			(project "DEV-G2-NANO"
-				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/c9cb6ef2-a54b-4b8b-8190-a2fee5ca7114"
-					(reference "#PWR022")
-					(unit 1)
-				)
+				(justify right)
 			)
 		)
 	)
@@ -9610,7 +9579,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "05fde41a-edc2-41ac-94ef-ccd17b591cc8")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR058"
 			(at 242.57 189.23 0)
 			(hide yes)
 			(show_name no)
@@ -9670,7 +9639,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/c9cb6ef2-a54b-4b8b-8190-a2fee5ca7114"
-					(reference "#PWR047")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -9687,7 +9656,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "11bf0cf5-d96c-44d7-9fb3-874b7b266cba")
-		(property "Reference" "C7"
+		(property "Reference" "C21"
 			(at -14.732 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9751,7 +9720,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/c9cb6ef2-a54b-4b8b-8190-a2fee5ca7114"
-					(reference "C7")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -9769,7 +9738,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1325bb9b-044a-4075-8a71-e1bf70998ed7")
-		(property "Reference" "C15"
+		(property "Reference" "C22"
 			(at 151.384 62.992 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9831,7 +9800,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/c9cb6ef2-a54b-4b8b-8190-a2fee5ca7114"
-					(reference "C15")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -9930,7 +9899,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1b456c84-fe52-44ae-acd6-861f31cc3402")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR048"
 			(at 63.5 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -9990,7 +9959,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/c9cb6ef2-a54b-4b8b-8190-a2fee5ca7114"
-					(reference "#PWR024")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -10008,7 +9977,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1c4b88f4-26c1-4d6b-aa27-55127eff1018")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR040"
 			(at 156.21 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -10068,7 +10037,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/c9cb6ef2-a54b-4b8b-8190-a2fee5ca7114"
-					(reference "#PWR038")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -10076,7 +10045,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 242.57 158.75 0)
+		(at 242.57 165.1 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -10086,8 +10055,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1d377bf6-f7d8-4814-96fa-925c42696b0f")
-		(property "Reference" "C21"
-			(at 245.11 157.4862 0)
+		(property "Reference" "C33"
+			(at 245.11 163.8362 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10098,7 +10067,7 @@
 			)
 		)
 		(property "Value" "22μF"
-			(at 245.11 160.0262 0)
+			(at 245.11 166.3762 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10109,7 +10078,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 242.57 158.75 0)
+			(at 242.57 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10120,7 +10089,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 242.57 158.75 0)
+			(at 242.57 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10131,7 +10100,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 242.57 158.75 0)
+			(at 242.57 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10150,7 +10119,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/c9cb6ef2-a54b-4b8b-8190-a2fee5ca7114"
-					(reference "C21")
+					(reference "C33")
 					(unit 1)
 				)
 			)
@@ -10167,7 +10136,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1e49e834-28ea-4164-8aa9-60fdda39e316")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR035"
 			(at 71.12 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -10227,88 +10196,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/c9cb6ef2-a54b-4b8b-8190-a2fee5ca7114"
-					(reference "#PWR027")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 59.69 83.82 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "20fcbb09-b385-458a-a8ec-a30fc35a4b32")
-		(property "Reference" "R16"
-			(at 58.42 85.09 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10kΩ"
-			(at 58.42 82.55 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 59.69 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 59.69 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 59.69 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "e7199570-ae8f-43c2-8ed4-26e0f157976c")
-		)
-		(pin "1"
-			(uuid "a70cd270-b486-4f8c-81ff-d09cba9793c0")
-		)
-		(instances
-			(project "DEV-G2-NANO"
-				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/c9cb6ef2-a54b-4b8b-8190-a2fee5ca7114"
-					(reference "R16")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -10325,7 +10213,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2138de79-9ee6-4cb2-815a-f159ea1db69a")
-		(property "Reference" "C5"
+		(property "Reference" "C19"
 			(at -29.972 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10389,7 +10277,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/c9cb6ef2-a54b-4b8b-8190-a2fee5ca7114"
-					(reference "C5")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -10406,7 +10294,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "25abd739-1bd5-4075-8741-b74fc9aaa409")
-		(property "Reference" "C11"
+		(property "Reference" "C30"
 			(at 60.198 128.27 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10470,7 +10358,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/c9cb6ef2-a54b-4b8b-8190-a2fee5ca7114"
-					(reference "C11")
+					(reference "C30")
 					(unit 1)
 				)
 			)
@@ -10487,7 +10375,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "265a194f-282f-44d7-8741-5834501ba97e")
-		(property "Reference" "C8"
+		(property "Reference" "C28"
 			(at 39.878 128.27 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10551,7 +10439,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/c9cb6ef2-a54b-4b8b-8190-a2fee5ca7114"
-					(reference "C8")
+					(reference "C28")
 					(unit 1)
 				)
 			)
@@ -10569,7 +10457,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2edb8c9f-173e-426c-891b-bedf7386b81a")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR038"
 			(at 156.21 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -10629,7 +10517,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/c9cb6ef2-a54b-4b8b-8190-a2fee5ca7114"
-					(reference "#PWR037")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -10646,7 +10534,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "33cb4819-9571-4b04-b5bf-8d5f00adb90b")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR032"
 			(at 120.65 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -10706,7 +10594,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/c9cb6ef2-a54b-4b8b-8190-a2fee5ca7114"
-					(reference "#PWR034")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -10724,7 +10612,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "34d75ba6-2167-4d5d-8462-c7e3444a64cb")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR059"
 			(at 242.57 199.39 0)
 			(hide yes)
 			(show_name no)
@@ -10784,7 +10672,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/c9cb6ef2-a54b-4b8b-8190-a2fee5ca7114"
-					(reference "#PWR048")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -10801,7 +10689,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3b50e694-9a58-4afa-9842-4a7ee91220d6")
-		(property "Reference" "R18"
+		(property "Reference" "R19"
 			(at 69.596 143.764 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10865,7 +10753,165 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/c9cb6ef2-a54b-4b8b-8190-a2fee5ca7114"
-					(reference "R18")
+					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 265.43 168.91 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3bf85c92-ebd8-4458-9916-0cdbdfa8cda2")
+		(property "Reference" "C34"
+			(at 263.652 167.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1μF"
+			(at 263.652 170.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 265.43 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 265.43 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 265.43 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "5816cd6a-ea77-49d7-a697-9915b66fcc26")
+		)
+		(pin "1"
+			(uuid "139066b0-b9e4-4340-bc3f-fe82a8634f83")
+		)
+		(instances
+			(project "DEV-G2-NANO"
+				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/c9cb6ef2-a54b-4b8b-8190-a2fee5ca7114"
+					(reference "C34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+1V0")
+		(at 265.43 158.75 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3d9fa4ce-b6a5-45a1-b09b-4361761359b6")
+		(property "Reference" "#PWR051"
+			(at 265.43 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 264.668 155.194 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 265.43 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 265.43 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V0\""
+			(at 265.43 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "69dfe28b-82aa-4513-8390-d07d54b171d1")
+		)
+		(instances
+			(project "DEV-G2-NANO"
+				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/c9cb6ef2-a54b-4b8b-8190-a2fee5ca7114"
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -10882,7 +10928,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "42f3e5e5-6b6e-4d9f-aa14-921bb5978500")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR034"
 			(at -24.13 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -10942,7 +10988,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/c9cb6ef2-a54b-4b8b-8190-a2fee5ca7114"
-					(reference "#PWR016")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -10959,7 +11005,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "482be34a-9046-4111-bfc7-2a9a66da30cf")
-		(property "Reference" "C4"
+		(property "Reference" "C18"
 			(at -37.592 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11023,7 +11069,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/c9cb6ef2-a54b-4b8b-8190-a2fee5ca7114"
-					(reference "C4")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -11031,7 +11077,7 @@
 	)
 	(symbol
 		(lib_id "power:+1V0")
-		(at 209.55 185.42 0)
+		(at 198.12 185.42 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11040,8 +11086,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4af7943e-c4da-4efa-b195-f98ff629a03d")
-		(property "Reference" "#PWR041"
-			(at 209.55 189.23 0)
+		(property "Reference" "#PWR057"
+			(at 198.12 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11052,7 +11098,7 @@
 			)
 		)
 		(property "Value" "V_{USB}"
-			(at 209.55 181.61 0)
+			(at 198.12 181.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11062,7 +11108,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 209.55 185.42 0)
+			(at 198.12 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11073,7 +11119,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 209.55 185.42 0)
+			(at 198.12 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11084,7 +11130,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+1V0\""
-			(at 209.55 185.42 0)
+			(at 198.12 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11100,7 +11146,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/c9cb6ef2-a54b-4b8b-8190-a2fee5ca7114"
-					(reference "#PWR041")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -11108,7 +11154,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 229.87 217.17 0)
+		(at 229.87 140.97 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -11118,8 +11164,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4c4d755a-f7ed-4985-8190-c543c18647aa")
-		(property "Reference" "#PWR044"
-			(at 229.87 223.52 0)
+		(property "Reference" "#PWR047"
+			(at 229.87 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11130,7 +11176,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 229.87 220.98 0)
+			(at 229.87 144.78 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11140,7 +11186,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 229.87 217.17 0)
+			(at 229.87 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11151,7 +11197,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 229.87 217.17 0)
+			(at 229.87 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11162,7 +11208,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 229.87 217.17 0)
+			(at 229.87 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11178,7 +11224,84 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/c9cb6ef2-a54b-4b8b-8190-a2fee5ca7114"
-					(reference "#PWR044")
+					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 265.43 171.45 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "505465a7-e84b-41e7-b801-86b33dbc34fe")
+		(property "Reference" "#PWR056"
+			(at 265.43 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 265.43 175.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 265.43 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 265.43 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 265.43 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "af943564-e89e-4bed-9e23-f85379150983")
+		)
+		(instances
+			(project "DEV-G2-NANO"
+				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/c9cb6ef2-a54b-4b8b-8190-a2fee5ca7114"
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -11196,7 +11319,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "53a3dee4-87b8-4767-9ee4-3ef53ff0bab8")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR042"
 			(at 38.1 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -11256,7 +11379,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/c9cb6ef2-a54b-4b8b-8190-a2fee5ca7114"
-					(reference "#PWR017")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -11376,7 +11499,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5792f3a6-c936-4d1b-8b52-28b413fc5097")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR027"
 			(at 146.05 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -11436,7 +11559,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/c9cb6ef2-a54b-4b8b-8190-a2fee5ca7114"
-					(reference "#PWR035")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -11453,7 +11576,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "57cd0732-9c4b-493f-a8a8-aacc8ad5d15a")
-		(property "Reference" "R19"
+		(property "Reference" "R16"
 			(at 70.866 91.694 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11517,7 +11640,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/c9cb6ef2-a54b-4b8b-8190-a2fee5ca7114"
-					(reference "R19")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -11525,7 +11648,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 209.55 195.58 0)
+		(at 198.12 195.58 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -11535,8 +11658,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5d4c0d1a-0e34-4e89-bf62-28934c6f86ed")
-		(property "Reference" "#PWR042"
-			(at 209.55 201.93 0)
+		(property "Reference" "#PWR060"
+			(at 198.12 201.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11547,7 +11670,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 209.55 199.39 0)
+			(at 198.12 199.39 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11557,7 +11680,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 209.55 195.58 0)
+			(at 198.12 195.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11568,7 +11691,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 209.55 195.58 0)
+			(at 198.12 195.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11579,7 +11702,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 209.55 195.58 0)
+			(at 198.12 195.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11595,7 +11718,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/c9cb6ef2-a54b-4b8b-8190-a2fee5ca7114"
-					(reference "#PWR042")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -11692,7 +11815,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "61b571ae-d600-4c54-86c4-f14935658992")
-		(property "Reference" "R17"
+		(property "Reference" "R18"
 			(at 61.976 143.764 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11756,7 +11879,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/c9cb6ef2-a54b-4b8b-8190-a2fee5ca7114"
-					(reference "R17")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -11774,7 +11897,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "61fb5fa0-50c2-46e8-8f97-9fdf081a3c99")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR044"
 			(at 58.42 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -11834,7 +11957,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/c9cb6ef2-a54b-4b8b-8190-a2fee5ca7114"
-					(reference "#PWR020")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -11853,7 +11976,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "65820e68-16e2-4185-b7eb-5476311c048a")
-		(property "Reference" "U5"
+		(property "Reference" "U7"
 			(at 222.25 179.07 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11927,7 +12050,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/c9cb6ef2-a54b-4b8b-8190-a2fee5ca7114"
-					(reference "U5")
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -11935,7 +12058,7 @@
 	)
 	(symbol
 		(lib_id "project_symbols:TPS62086")
-		(at 215.9 152.4 0)
+		(at 215.9 158.75 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11945,8 +12068,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "699fe3fe-474c-483f-a6aa-b9effb2c88f0")
-		(property "Reference" "U4"
-			(at 222.25 147.32 0)
+		(property "Reference" "U6"
+			(at 222.25 153.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11956,7 +12079,7 @@
 			)
 		)
 		(property "Value" "TPS62086"
-			(at 222.25 149.86 0)
+			(at 222.25 156.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11966,7 +12089,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 215.9 152.4 0)
+			(at 215.9 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11977,7 +12100,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 215.9 152.4 0)
+			(at 215.9 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11988,7 +12111,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 215.9 152.4 0)
+			(at 215.9 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12022,7 +12145,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/c9cb6ef2-a54b-4b8b-8190-a2fee5ca7114"
-					(reference "U4")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -12030,7 +12153,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 242.57 161.29 0)
+		(at 242.57 167.64 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -12040,8 +12163,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "69bf490a-88dc-46dc-804b-a2d27374a860")
-		(property "Reference" "#PWR046"
-			(at 242.57 167.64 0)
+		(property "Reference" "#PWR054"
+			(at 242.57 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12052,7 +12175,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 242.57 165.1 0)
+			(at 242.57 171.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12062,7 +12185,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 242.57 161.29 0)
+			(at 242.57 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12073,7 +12196,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 242.57 161.29 0)
+			(at 242.57 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12084,7 +12207,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 242.57 161.29 0)
+			(at 242.57 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12100,7 +12223,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/c9cb6ef2-a54b-4b8b-8190-a2fee5ca7114"
-					(reference "#PWR046")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -12117,7 +12240,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6d1fbff0-8471-4a29-ae7c-8658fb6135b2")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR033"
 			(at -46.99 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -12177,7 +12300,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/c9cb6ef2-a54b-4b8b-8190-a2fee5ca7114"
-					(reference "#PWR014")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -12194,7 +12317,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6d360f92-c65e-4a58-957c-b3b121760df9")
-		(property "Reference" "C14"
+		(property "Reference" "C31"
 			(at 70.358 128.27 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12258,7 +12381,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/c9cb6ef2-a54b-4b8b-8190-a2fee5ca7114"
-					(reference "C14")
+					(reference "C31")
 					(unit 1)
 				)
 			)
@@ -12275,7 +12398,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "725072ca-4e8a-4319-8ace-aecde573faed")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR029"
 			(at 80.01 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -12335,7 +12458,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/c9cb6ef2-a54b-4b8b-8190-a2fee5ca7114"
-					(reference "#PWR030")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -12353,7 +12476,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7d5132ae-b826-46aa-b7ce-83d581b03883")
-		(property "Reference" "C18"
+		(property "Reference" "C25"
 			(at 151.384 94.488 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12415,7 +12538,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/c9cb6ef2-a54b-4b8b-8190-a2fee5ca7114"
-					(reference "C18")
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -12432,7 +12555,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7e45089c-37dd-4275-9284-0e14ac06b62e")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR041"
 			(at 57.15 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -12492,7 +12615,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/c9cb6ef2-a54b-4b8b-8190-a2fee5ca7114"
-					(reference "#PWR019")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -12500,7 +12623,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 218.44 215.9 90)
+		(at 218.44 139.7 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12509,8 +12632,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "83307905-e572-4429-b7d3-8dfea0db322c")
-		(property "Reference" "R20"
-			(at 218.44 218.44 90)
+		(property "Reference" "R17"
+			(at 218.44 142.24 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12520,7 +12643,7 @@
 			)
 		)
 		(property "Value" "5.1kΩ"
-			(at 218.44 220.98 90)
+			(at 218.44 144.78 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12530,7 +12653,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 218.44 215.9 0)
+			(at 218.44 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12541,7 +12664,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 218.44 215.9 0)
+			(at 218.44 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12552,7 +12675,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 218.44 215.9 0)
+			(at 218.44 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12571,7 +12694,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/c9cb6ef2-a54b-4b8b-8190-a2fee5ca7114"
-					(reference "R20")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -12588,7 +12711,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8a1be87c-693a-44d2-b912-73ae7ec66919")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR030"
 			(at 88.9 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -12648,7 +12771,88 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/c9cb6ef2-a54b-4b8b-8190-a2fee5ca7114"
-					(reference "#PWR031")
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 265.43 161.29 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8d241c5a-9f4c-40cc-8613-fafe38dad976")
+		(property "Reference" "R20"
+			(at 264.16 162.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10kΩ"
+			(at 264.16 160.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 265.43 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 265.43 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 265.43 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "123df93d-de65-4996-b7d2-deba6f21c684")
+		)
+		(pin "1"
+			(uuid "850757da-39df-4cb7-837a-7dd545c7769e")
+		)
+		(instances
+			(project "DEV-G2-NANO"
+				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/c9cb6ef2-a54b-4b8b-8190-a2fee5ca7114"
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -12666,7 +12870,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8d778506-9f7d-4587-86f4-703b47e71cd1")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR045"
 			(at 68.58 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -12726,88 +12930,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/c9cb6ef2-a54b-4b8b-8190-a2fee5ca7114"
-					(reference "#PWR026")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 59.69 91.44 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "90d71275-377c-47e3-a044-a6d1e830111b")
-		(property "Reference" "C12"
-			(at 57.912 90.17 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1μF"
-			(at 57.912 92.71 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 59.69 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 59.69 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 59.69 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "78b88b5b-14bd-4e71-909b-0a5461e9b169")
-		)
-		(pin "1"
-			(uuid "6003febc-b5b6-48fa-899d-52e8caca4e3a")
-		)
-		(instances
-			(project "DEV-G2-NANO"
-				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/c9cb6ef2-a54b-4b8b-8190-a2fee5ca7114"
-					(reference "C12")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -12905,7 +13028,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9c6daca3-b9ad-4b59-ab8c-e6e8fd768807")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR050"
 			(at 104.14 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -12965,7 +13088,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/c9cb6ef2-a54b-4b8b-8190-a2fee5ca7114"
-					(reference "#PWR033")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -13945,7 +14068,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ad2f5a2f-4992-42ea-bf4e-54541a56ab75")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR039"
 			(at 72.39 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -14005,7 +14128,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/c9cb6ef2-a54b-4b8b-8190-a2fee5ca7114"
-					(reference "#PWR029")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -14023,7 +14146,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ad3cb9cd-d22e-4f88-abcd-056db32606fd")
-		(property "Reference" "C17"
+		(property "Reference" "C24"
 			(at 151.384 83.312 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14085,7 +14208,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/c9cb6ef2-a54b-4b8b-8190-a2fee5ca7114"
-					(reference "C17")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -14103,7 +14226,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ae6edfba-4a83-468a-b437-046430de0098")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR049"
 			(at 71.12 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -14163,7 +14286,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/c9cb6ef2-a54b-4b8b-8190-a2fee5ca7114"
-					(reference "#PWR028")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -14171,7 +14294,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 209.55 158.75 0)
+		(at 209.55 165.1 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14180,8 +14303,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "afd024d2-13ab-400e-8c8f-f076d84d1925")
-		(property "Reference" "C19"
-			(at 207.01 157.4862 0)
+		(property "Reference" "C32"
+			(at 207.01 163.8362 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14192,7 +14315,7 @@
 			)
 		)
 		(property "Value" "10μF"
-			(at 207.01 160.0262 0)
+			(at 207.01 166.3762 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14203,7 +14326,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 209.55 158.75 0)
+			(at 209.55 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14214,7 +14337,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 209.55 158.75 0)
+			(at 209.55 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14225,7 +14348,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 209.55 158.75 0)
+			(at 209.55 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14244,7 +14367,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/c9cb6ef2-a54b-4b8b-8190-a2fee5ca7114"
-					(reference "C19")
+					(reference "C32")
 					(unit 1)
 				)
 			)
@@ -14261,7 +14384,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b12182e5-f6b3-4810-9216-b0753a1a4250")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR025"
 			(at -46.99 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -14321,7 +14444,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/c9cb6ef2-a54b-4b8b-8190-a2fee5ca7114"
-					(reference "#PWR013")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -14329,7 +14452,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 209.55 190.5 0)
+		(at 198.12 190.5 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14338,8 +14461,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b70f6c27-13de-4420-b3ec-4c78e1fddd45")
-		(property "Reference" "C20"
-			(at 207.01 189.2362 0)
+		(property "Reference" "C35"
+			(at 195.58 189.2362 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14350,7 +14473,7 @@
 			)
 		)
 		(property "Value" "4.7μF"
-			(at 207.01 191.7762 0)
+			(at 195.58 191.7762 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14361,7 +14484,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 209.55 190.5 0)
+			(at 198.12 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14372,7 +14495,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 209.55 190.5 0)
+			(at 198.12 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14383,7 +14506,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 209.55 190.5 0)
+			(at 198.12 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14402,7 +14525,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/c9cb6ef2-a54b-4b8b-8190-a2fee5ca7114"
-					(reference "C20")
+					(reference "C35")
 					(unit 1)
 				)
 			)
@@ -14410,7 +14533,7 @@
 	)
 	(symbol
 		(lib_id "power:+1V0")
-		(at 209.55 153.67 0)
+		(at 209.55 160.02 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14419,8 +14542,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c0fff032-f8cd-4b54-84ec-3dcbc2bad065")
-		(property "Reference" "#PWR039"
-			(at 209.55 157.48 0)
+		(property "Reference" "#PWR052"
+			(at 209.55 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14431,7 +14554,7 @@
 			)
 		)
 		(property "Value" "V_{USB}"
-			(at 209.55 149.86 0)
+			(at 209.55 156.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14441,7 +14564,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 209.55 153.67 0)
+			(at 209.55 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14452,7 +14575,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 209.55 153.67 0)
+			(at 209.55 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14463,7 +14586,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+1V0\""
-			(at 209.55 153.67 0)
+			(at 209.55 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14479,7 +14602,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/c9cb6ef2-a54b-4b8b-8190-a2fee5ca7114"
-					(reference "#PWR039")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -14497,7 +14620,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c266ae36-f905-4212-a718-0e31ee6815e2")
-		(property "Reference" "C22"
+		(property "Reference" "C36"
 			(at 245.11 189.2362 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14561,7 +14684,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/c9cb6ef2-a54b-4b8b-8190-a2fee5ca7114"
-					(reference "C22")
+					(reference "C36")
 					(unit 1)
 				)
 			)
@@ -14569,7 +14692,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 209.55 163.83 0)
+		(at 209.55 170.18 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -14579,8 +14702,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c8fb7c4a-6dd3-4d76-ad4e-7c2e677cba74")
-		(property "Reference" "#PWR040"
-			(at 209.55 170.18 0)
+		(property "Reference" "#PWR055"
+			(at 209.55 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14591,7 +14714,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 209.55 167.64 0)
+			(at 209.55 173.99 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14601,7 +14724,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 209.55 163.83 0)
+			(at 209.55 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14612,7 +14735,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 209.55 163.83 0)
+			(at 209.55 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14623,7 +14746,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 209.55 163.83 0)
+			(at 209.55 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14639,7 +14762,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/c9cb6ef2-a54b-4b8b-8190-a2fee5ca7114"
-					(reference "#PWR040")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -14656,7 +14779,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cadd24bc-a8e4-4a50-a490-1704b8483755")
-		(property "Reference" "C10"
+		(property "Reference" "C26"
 			(at 53.848 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14720,7 +14843,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/c9cb6ef2-a54b-4b8b-8190-a2fee5ca7114"
-					(reference "C10")
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -14738,7 +14861,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d14e46f3-9ee7-430f-8d13-414efa3d3501")
-		(property "Reference" "C16"
+		(property "Reference" "C23"
 			(at 151.384 74.168 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14800,7 +14923,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/c9cb6ef2-a54b-4b8b-8190-a2fee5ca7114"
-					(reference "C16")
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -14817,7 +14940,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d5eb5f2b-3069-449e-a8bb-7b8b28ac0697")
-		(property "Reference" "C6"
+		(property "Reference" "C20"
 			(at -22.352 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14881,7 +15004,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/c9cb6ef2-a54b-4b8b-8190-a2fee5ca7114"
-					(reference "C6")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -14889,7 +15012,7 @@
 	)
 	(symbol
 		(lib_id "Device:L_Small")
-		(at 233.68 154.94 90)
+		(at 233.68 161.29 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14900,7 +15023,7 @@
 		(fields_autoplaced yes)
 		(uuid "d6071a10-02f4-4bde-9cf7-2163f52a1b0c")
 		(property "Reference" "L2"
-			(at 233.68 149.86 90)
+			(at 233.68 156.21 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14910,7 +15033,7 @@
 			)
 		)
 		(property "Value" "470nH"
-			(at 233.68 152.4 90)
+			(at 233.68 158.75 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14920,7 +15043,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 233.68 154.94 0)
+			(at 233.68 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14931,7 +15054,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 233.68 154.94 0)
+			(at 233.68 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14942,7 +15065,7 @@
 			)
 		)
 		(property "Description" "Inductor, small symbol"
-			(at 233.68 154.94 0)
+			(at 233.68 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14978,7 +15101,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d6589edd-3304-4e03-9dc2-205314f08187")
-		(property "Reference" "C9"
+		(property "Reference" "C29"
 			(at 50.038 128.27 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15042,7 +15165,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/c9cb6ef2-a54b-4b8b-8190-a2fee5ca7114"
-					(reference "C9")
+					(reference "C29")
 					(unit 1)
 				)
 			)
@@ -15059,7 +15182,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d8b91ac2-6850-4fb0-af00-89dec718fa77")
-		(property "Reference" "C2"
+		(property "Reference" "C16"
 			(at -52.832 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15123,84 +15246,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/c9cb6ef2-a54b-4b8b-8190-a2fee5ca7114"
-					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+1V0")
-		(at 59.69 81.28 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d947429c-263d-4bff-90c9-3e1141dc60e4")
-		(property "Reference" "#PWR021"
-			(at 59.69 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 58.928 77.724 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 59.69 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 59.69 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+1V0\""
-			(at 59.69 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2c00cbae-6393-40d1-9946-f80e9837665b")
-		)
-		(instances
-			(project "DEV-G2-NANO"
-				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/c9cb6ef2-a54b-4b8b-8190-a2fee5ca7114"
-					(reference "#PWR021")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -15217,7 +15263,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "da122d4a-22e4-4010-89f5-6fe8882fbc5d")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR037"
 			(at 62.23 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -15277,7 +15323,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/c9cb6ef2-a54b-4b8b-8190-a2fee5ca7114"
-					(reference "#PWR023")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -15375,7 +15421,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "db7a5864-cbc2-4e10-a461-8db499e31613")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR036"
 			(at 66.04 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -15435,7 +15481,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/c9cb6ef2-a54b-4b8b-8190-a2fee5ca7114"
-					(reference "#PWR025")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -15443,7 +15489,7 @@
 	)
 	(symbol
 		(lib_id "power:+1V0")
-		(at 214.63 214.63 0)
+		(at 214.63 138.43 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15452,8 +15498,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dd29821b-0d81-4607-bc99-50412bb3e672")
-		(property "Reference" "#PWR043"
-			(at 214.63 218.44 0)
+		(property "Reference" "#PWR046"
+			(at 214.63 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15464,7 +15510,7 @@
 			)
 		)
 		(property "Value" "V_{USB}"
-			(at 214.63 210.82 0)
+			(at 214.63 134.62 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15474,7 +15520,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 214.63 214.63 0)
+			(at 214.63 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15485,7 +15531,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 214.63 214.63 0)
+			(at 214.63 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15496,7 +15542,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+1V0\""
-			(at 214.63 214.63 0)
+			(at 214.63 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15512,7 +15558,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/c9cb6ef2-a54b-4b8b-8190-a2fee5ca7114"
-					(reference "#PWR043")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -15529,7 +15575,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e1139b72-2469-464f-85a7-ded821c1c450")
-		(property "Reference" "C13"
+		(property "Reference" "C27"
 			(at 64.008 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15593,7 +15639,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/c9cb6ef2-a54b-4b8b-8190-a2fee5ca7114"
-					(reference "C13")
+					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -15712,7 +15758,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f1d9ab0f-7416-4754-abe6-96d3a60e3c87")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR026"
 			(at -24.13 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -15772,7 +15818,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/c9cb6ef2-a54b-4b8b-8190-a2fee5ca7114"
-					(reference "#PWR015")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -15790,7 +15836,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f4ba3a5a-5ef6-4009-9d90-cb7ab6a9af4a")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR043"
 			(at 48.26 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -15850,7 +15896,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/c9cb6ef2-a54b-4b8b-8190-a2fee5ca7114"
-					(reference "#PWR018")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -15867,7 +15913,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f6e925fc-0ca5-481e-91c8-6d06dda30763")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR028"
 			(at 151.13 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -15927,7 +15973,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/c9cb6ef2-a54b-4b8b-8190-a2fee5ca7114"
-					(reference "#PWR036")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -15935,7 +15981,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 224.79 215.9 180)
+		(at 224.79 139.7 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15945,7 +15991,7 @@
 		(dnp no)
 		(uuid "f72cd5f5-0492-4b37-815a-7d758b725602")
 		(property "Reference" "D4"
-			(at 224.79 213.106 0)
+			(at 224.79 136.906 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15955,7 +16001,7 @@
 			)
 		)
 		(property "Value" "RED"
-			(at 226.3775 210.82 0)
+			(at 226.3775 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15966,7 +16012,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 224.79 215.9 0)
+			(at 224.79 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15977,7 +16023,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 224.79 215.9 0)
+			(at 224.79 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15988,7 +16034,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 224.79 215.9 0)
+			(at 224.79 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15999,7 +16045,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 224.79 215.9 0)
+			(at 224.79 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16035,7 +16081,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fbc7e44c-5a6a-4470-908f-3e88b99614d8")
-		(property "Reference" "C3"
+		(property "Reference" "C17"
 			(at -45.212 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16099,7 +16145,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/c9cb6ef2-a54b-4b8b-8190-a2fee5ca7114"
-					(reference "C3")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -16107,7 +16153,7 @@
 	)
 	(symbol
 		(lib_id "power:+1V0")
-		(at 242.57 153.67 0)
+		(at 242.57 160.02 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16116,8 +16162,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ff33729f-55b3-491d-bbe8-4e7b3b13b593")
-		(property "Reference" "#PWR045"
-			(at 242.57 157.48 0)
+		(property "Reference" "#PWR053"
+			(at 242.57 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16128,7 +16174,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 241.808 150.114 0)
+			(at 241.808 156.464 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16138,7 +16184,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 242.57 153.67 0)
+			(at 242.57 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16149,7 +16195,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 242.57 153.67 0)
+			(at 242.57 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16160,7 +16206,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+1V0\""
-			(at 242.57 153.67 0)
+			(at 242.57 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16176,7 +16222,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/c9cb6ef2-a54b-4b8b-8190-a2fee5ca7114"
-					(reference "#PWR045")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -16193,7 +16239,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ffaf71a4-3842-4098-95bd-552b346a9906")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR031"
 			(at 104.14 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -16253,7 +16299,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/c9cb6ef2-a54b-4b8b-8190-a2fee5ca7114"
-					(reference "#PWR032")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)

@@ -14,11 +14,11 @@ The G2 Nano is a high-performance microcontroller development board combining a 
 * 1 GHz Arm Cortex-M7 Microprocessor
 * Double-Precision Floating Point Unit
 * 2 MiB RAM (512 KiB Tightly Coupled)
-* 16 MiB QSPI Flash Memory
+* 8 MiB QSPI Flash Memory
 * Dual-band Wi-Fi
 * 6-Axis IMU (3-Axis Accelerometer; 3-Axis Gyroscope)
 * 3-Axis Magnetometer
-* Closed-Loop Motion Controller <!-- TODO: How many axes? which part (provide link)? -->
+* 3-Axis Closed-Loop Motion Controller <!-- TODO: provide link to part -->
 * USB 2.0 Host (Requires 4-Pin Adapter Such as the [StarTech USBMBADAPT](https://www.digikey.com/en/products/detail/startech-com/USBMBADAPT/21398325))
 * Real-Time Clock (Optionally powered with a coin cell battery)
 * Built-In Hardware Debugger
@@ -28,9 +28,10 @@ The G2 Nano is a high-performance microcontroller development board combining a 
 <!--
 The following features are planned, but their implementation is not yet certain:
 
-* Micro SD Card Socket
 * xxx Digital GPIO
 * xxx Independent CAN/CAN-FD Bus Interfaces
+* xxx PWM pins
+* xxx PDM pins (e.g., `PDM_DATA0`)
 * Common Serial Interfaces (xxx UART; xxx SPI; xxx I2C)
 * xxx Analog Inputs
 * 12-Bit DAC

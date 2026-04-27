@@ -14592,7 +14592,7 @@
 				)
 			)
 		)
-		(property "Value" "+3V3"
+		(property "Value" "???"
 			(at 91.948 61.214 0)
 			(show_name no)
 			(do_not_autoplace no)

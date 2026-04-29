@@ -4364,6 +4364,1086 @@
 				)
 			)
 			(pin unspecified line
+				(at -5.08 -50.8 0)
+				(length 5.08)
+				(name "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -5.08 -53.34 0)
+				(length 5.08)
+				(name "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -5.08 -55.88 0)
+				(length 5.08)
+				(name "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -5.08 -58.42 0)
+				(length 5.08)
+				(name "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -5.08 -60.96 0)
+				(length 5.08)
+				(name "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -5.08 -63.5 0)
+				(length 5.08)
+				(name "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -5.08 -66.04 0)
+				(length 5.08)
+				(name "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -5.08 -68.58 0)
+				(length 5.08)
+				(name "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -5.08 -71.12 0)
+				(length 5.08)
+				(name "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -5.08 -73.66 0)
+				(length 5.08)
+				(name "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -5.08 -76.2 0)
+				(length 5.08)
+				(name "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -5.08 -78.74 0)
+				(length 5.08)
+				(name "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -5.08 -81.28 0)
+				(length 5.08)
+				(name "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -5.08 -83.82 0)
+				(length 5.08)
+				(name "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -5.08 -86.36 0)
+				(length 5.08)
+				(name "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -5.08 -88.9 0)
+				(length 5.08)
+				(name "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -5.08 -91.44 0)
+				(length 5.08)
+				(name "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -5.08 -93.98 0)
+				(length 5.08)
+				(name "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -5.08 -96.52 0)
+				(length 5.08)
+				(name "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -5.08 -99.06 0)
+				(length 5.08)
+				(name "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -5.08 -101.6 0)
+				(length 5.08)
+				(name "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -5.08 -104.14 0)
+				(length 5.08)
+				(name "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -5.08 -106.68 0)
+				(length 5.08)
+				(name "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -5.08 -109.22 0)
+				(length 5.08)
+				(name "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -5.08 -111.76 0)
+				(length 5.08)
+				(name "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -5.08 -114.3 0)
+				(length 5.08)
+				(name "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -5.08 -116.84 0)
+				(length 5.08)
+				(name "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -5.08 -119.38 0)
+				(length 5.08)
+				(name "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -5.08 -121.92 0)
+				(length 5.08)
+				(name "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -5.08 -124.46 0)
+				(length 5.08)
+				(name "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -5.08 -129.54 0)
+				(length 5.08)
+				(name "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -5.08 -132.08 0)
+				(length 5.08)
+				(name "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -5.08 -134.62 0)
+				(length 5.08)
+				(name "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -5.08 -137.16 0)
+				(length 5.08)
+				(name "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -5.08 -139.7 0)
+				(length 5.08)
+				(name "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -5.08 -142.24 0)
+				(length 5.08)
+				(name "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -5.08 -144.78 0)
+				(length 5.08)
+				(name "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -5.08 -147.32 0)
+				(length 5.08)
+				(name "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -5.08 -149.86 0)
+				(length 5.08)
+				(name "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -5.08 -152.4 0)
+				(length 5.08)
+				(name "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -5.08 -154.94 0)
+				(length 5.08)
+				(name "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -5.08 -157.48 0)
+				(length 5.08)
+				(name "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -5.08 -160.02 0)
+				(length 5.08)
+				(name "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -5.08 -162.56 0)
+				(length 5.08)
+				(name "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -5.08 -165.1 0)
+				(length 5.08)
+				(name "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -5.08 -167.64 0)
+				(length 5.08)
+				(name "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -5.08 -170.18 0)
+				(length 5.08)
+				(name "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -5.08 -172.72 0)
+				(length 5.08)
+				(name "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -5.08 -175.26 0)
+				(length 5.08)
+				(name "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -5.08 -177.8 0)
+				(length 5.08)
+				(name "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -5.08 -180.34 0)
+				(length 5.08)
+				(name "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -5.08 -182.88 0)
+				(length 5.08)
+				(name "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -5.08 -185.42 0)
+				(length 5.08)
+				(name "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -5.08 -187.96 0)
+				(length 5.08)
+				(name "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -5.08 -190.5 0)
+				(length 5.08)
+				(name "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -5.08 -193.04 0)
+				(length 5.08)
+				(name "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -5.08 -195.58 0)
+				(length 5.08)
+				(name "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -5.08 -198.12 0)
+				(length 5.08)
+				(name "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -5.08 -200.66 0)
+				(length 5.08)
+				(name "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -5.08 -203.2 0)
+				(length 5.08)
+				(name "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
 				(at 43.18 -20.32 180)
 				(length 5.08)
 				(name "???"
@@ -4599,6 +5679,114 @@
 			)
 			(pin unspecified line
 				(at 43.18 -101.6 180)
+				(length 5.08)
+				(name "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 43.18 -144.78 180)
+				(length 5.08)
+				(name "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 43.18 -147.32 180)
+				(length 5.08)
+				(name "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 43.18 -152.4 180)
+				(length 5.08)
+				(name "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 43.18 -154.94 180)
+				(length 5.08)
+				(name "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 43.18 -157.48 180)
+				(length 5.08)
+				(name "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "???"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 43.18 -160.02 180)
 				(length 5.08)
 				(name "???"
 					(effects
@@ -4872,7 +6060,7 @@
 			(unit_name "User I/O")
 			(rectangle
 				(start 0 0)
-				(end 38.1 -127)
+				(end 38.1 -205.74)
 				(stroke
 					(width 0)
 					(type solid)
@@ -8661,6 +9849,958 @@
 							(size 1.27 1.27)
 						)
 					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "RTMC-G2-4IQ48"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "U"
+			(at -10.16 5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RTMC-G2-4IQ48"
+			(at -10.16 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "RTMC-G2-4IQ48_0_0"
+			(pin output line
+				(at 43.18 -25.4 180)
+				(length 5.08)
+				(name "M1_A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 43.18 -27.94 180)
+				(length 5.08)
+				(name "M1_B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 43.18 -30.48 180)
+				(length 5.08)
+				(name "E1_A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 43.18 -33.02 180)
+				(length 5.08)
+				(name "E1_B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 43.18 -38.1 180)
+				(length 5.08)
+				(name "M2_A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 43.18 -40.64 180)
+				(length 5.08)
+				(name "M2_B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 43.18 -43.18 180)
+				(length 5.08)
+				(name "E2_A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 43.18 -45.72 180)
+				(length 5.08)
+				(name "E2_B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -5.08 -35.56 0)
+				(length 5.08)
+				(name "E2_Z/LS2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 43.18 -63.5 180)
+				(length 5.08)
+				(name "UPDATE"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 21.59 5.08 270)
+				(length 5.08)
+				(hide yes)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 43.18 -55.88 180)
+				(length 5.08)
+				(name "E3_A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 43.18 -58.42 180)
+				(length 5.08)
+				(name "E3_B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "17"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -5.08 -38.1 0)
+				(length 5.08)
+				(name "E3_Z/LS3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "18"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 21.59 5.08 270)
+				(length 5.08)
+				(hide yes)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "20"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 43.18 -50.8 180)
+				(length 5.08)
+				(name "M3_A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "21"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 43.18 -53.34 180)
+				(length 5.08)
+				(name "M3_B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "22"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin open_collector line
+				(at 43.18 -66.04 180)
+				(length 5.08)
+				(name "FAULT_OUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "23"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 43.18 -68.58 180)
+				(length 5.08)
+				(name "FAULT_IN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "24"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -5.08 -22.86 0)
+				(length 5.08)
+				(name "M4_A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "25"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -5.08 -25.4 0)
+				(length 5.08)
+				(name "M4_B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "26"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 21.59 5.08 270)
+				(length 5.08)
+				(hide yes)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "28"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -5.08 -68.58 0)
+				(length 5.08)
+				(name "OSCI"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "30"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -5.08 -53.34 0)
+				(length 5.08)
+				(name "ENABLE"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "31"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -5.08 -27.94 0)
+				(length 5.08)
+				(name "E4_A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "32"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -5.08 -30.48 0)
+				(length 5.08)
+				(name "E4_B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "33"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -5.08 -40.64 0)
+				(length 5.08)
+				(name "E4_Z/LS4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "34"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 21.59 5.08 270)
+				(length 5.08)
+				(hide yes)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "36"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -5.08 -10.16 0)
+				(length 5.08)
+				(name "CS_N"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "37"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -5.08 -12.7 0)
+				(length 5.08)
+				(name "SCLK"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "38"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -5.08 -15.24 0)
+				(length 5.08)
+				(name "DI"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "39"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -5.08 -17.78 0)
+				(length 5.08)
+				(name "DO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "40"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 21.59 5.08 270)
+				(length 5.08)
+				(hide yes)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "46"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -5.08 -5.08 0)
+				(length 5.08)
+				(name "INTER"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "47"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "RTMC-G2-4IQ48_1_0"
+			(pin input line
+				(at -5.08 -33.02 0)
+				(length 5.08)
+				(name "E1_Z/LS1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 19.05 -76.2 90)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 21.59 5.08 270)
+				(length 5.08)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 19.05 -76.2 90)
+				(length 5.08)
+				(hide yes)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 19.05 -76.2 90)
+				(length 5.08)
+				(hide yes)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "19"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 19.05 -76.2 90)
+				(length 5.08)
+				(hide yes)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "27"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -5.08 -60.96 0)
+				(length 5.08)
+				(name "OSCO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "29"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 19.05 -76.2 90)
+				(length 5.08)
+				(hide yes)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "35"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 43.18 -12.7 180)
+				(length 5.08)
+				(name "BUCK_IN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "41"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 43.18 -2.54 180)
+				(length 5.08)
+				(name "BUCK_SW"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "42"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 43.18 -20.32 180)
+				(length 5.08)
+				(name "BUCK_GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "43"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 16.51 5.08 270)
+				(length 5.08)
+				(name "VDD_CORE"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "44"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 19.05 -76.2 90)
+				(length 5.08)
+				(hide yes)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "45"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -5.08 -2.54 0)
+				(length 5.08)
+				(name "RESET_N"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "48"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "RTMC-G2-4IQ48_1_1"
+			(rectangle
+				(start 0 0)
+				(end 38.1 -71.12)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
 				)
 			)
 		)

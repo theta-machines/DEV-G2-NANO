@@ -12,585 +12,6 @@
 		(comment 2 "© 2026, Theta Machines LLC.")
 	)
 	(lib_symbols
-		(symbol "-- project_symbols --:USB C"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 22.225 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 19.685 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 3.81 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 3.81 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "usb universal serial bus type-C USB2.0"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "USB*C*Receptacle*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "USB C_0_0"
-				(rectangle
-					(start -0.254 -17.78)
-					(end 0.254 -16.764)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 15.494)
-					(end 9.144 14.986)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 10.414)
-					(end 9.144 9.906)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 7.874)
-					(end 9.144 7.366)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 2.794)
-					(end 9.144 2.286)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 0.254)
-					(end 9.144 -0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 -2.286)
-					(end 9.144 -2.794)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 -4.826)
-					(end 9.144 -5.334)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "USB C_0_1"
-				(rectangle
-					(start -10.16 17.78)
-					(end 10.16 -17.78)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -8.89 -3.81) (xy -8.89 3.81)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -7.62 -3.81)
-					(end -6.35 3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(arc
-					(start -7.62 3.81)
-					(mid -6.985 4.4423)
-					(end -6.35 3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -7.62 3.81)
-					(mid -6.985 4.4423)
-					(end -6.35 3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(arc
-					(start -8.89 3.81)
-					(mid -6.985 5.7067)
-					(end -5.08 3.81)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -5.08 -3.81)
-					(mid -6.985 -5.7067)
-					(end -8.89 -3.81)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -6.35 -3.81)
-					(mid -6.985 -4.4423)
-					(end -7.62 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -6.35 -3.81)
-					(mid -6.985 -4.4423)
-					(end -7.62 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 3.81) (xy -5.08 -3.81)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -2.54 1.143)
-					(radius 0.635)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 4.318) (xy 0 6.858) (xy 1.27 4.318) (xy -1.27 4.318)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.032) (xy 2.54 0.508) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -3.302) (xy -2.54 -0.762) (xy -2.54 0.508)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -5.842) (xy 0 4.318)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 -5.842)
-					(radius 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 1.905 1.778)
-					(end 3.175 3.048)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "USB C_1_1"
-				(pin passive line
-					(at 0 -25.4 90)
-					(length 7.62)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A1_B12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 17.78 15.24 180)
-					(length 7.62)
-					(name "VBUS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A4_B9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 17.78 10.16 180)
-					(length 7.62)
-					(name "CC1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 17.78 -2.54 180)
-					(length 7.62)
-					(name "D+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 17.78 2.54 180)
-					(length 7.62)
-					(name "D-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -25.4 90)
-					(length 7.62)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B1_A12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 17.78 15.24 180)
-					(length 7.62)
-					(hide yes)
-					(name "VBUS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B4_A9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 17.78 7.62 180)
-					(length 7.62)
-					(name "CC2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 17.78 -5.08 180)
-					(length 7.62)
-					(name "D+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 17.78 0 180)
-					(length 7.62)
-					(name "D-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 -25.4 90)
-					(length 7.62)
-					(name "SHIELD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "S1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector_Generic:Conn_01x03"
 			(pin_names
 				(offset 1.016)
@@ -8497,6 +7918,470 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "project_symbols:USB-C"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at -3.81 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "project_footprints:UJ20-C-H-G-SMT-5-P16"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "USB-C_0_1"
+				(rectangle
+					(start 0 0)
+					(end 20.32 -35.56)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -21.59) (xy 1.27 -13.97)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.54 -21.59)
+					(end 3.81 -13.97)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start 2.54 -13.97)
+					(mid 3.175 -13.3377)
+					(end 3.81 -13.97)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 -13.97)
+					(mid 3.175 -13.3377)
+					(end 3.81 -13.97)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start 1.27 -13.97)
+					(mid 3.175 -12.0733)
+					(end 5.08 -13.97)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 5.08 -21.59)
+					(mid 3.175 -23.4867)
+					(end 1.27 -21.59)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 3.81 -21.59)
+					(mid 3.175 -22.2223)
+					(end 2.54 -21.59)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 3.81 -21.59)
+					(mid 3.175 -22.2223)
+					(end 2.54 -21.59)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -13.97) (xy 5.08 -21.59)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 7.62 -16.637)
+					(radius 0.635)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.89 -13.462) (xy 10.16 -10.922) (xy 11.43 -13.462) (xy 8.89 -13.462)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -19.812) (xy 12.7 -17.272) (xy 12.7 -16.002)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -21.082) (xy 7.62 -18.542) (xy 7.62 -17.272)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -23.622) (xy 10.16 -13.462)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 10.16 -23.622)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 12.065 -16.002)
+					(end 13.335 -14.732)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "USB-C_1_1"
+				(pin passive line
+					(at 10.16 -43.18 90)
+					(length 7.62)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A1_B12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 -2.54 180)
+					(length 7.62)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A4_B9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 27.94 -7.62 180)
+					(length 7.62)
+					(name "CC1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 27.94 -20.32 180)
+					(length 7.62)
+					(name "D+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 27.94 -15.24 180)
+					(length 7.62)
+					(name "D-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -43.18 90)
+					(length 7.62)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B1_A12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 -2.54 180)
+					(length 7.62)
+					(hide yes)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B4_A9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 27.94 -10.16 180)
+					(length 7.62)
+					(name "CC2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 27.94 -22.86 180)
+					(length 7.62)
+					(name "D+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 27.94 -17.78 180)
+					(length 7.62)
+					(name "D-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -43.18 90)
+					(length 7.62)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(junction
 		(at 86.36 113.03)
@@ -9825,7 +9710,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0000dc8f-6b53-4d07-b208-e026e69f7ba7")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR048"
 			(at 97.79 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -9885,7 +9770,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/45e1da5b-d52f-4e94-b563-4995febadb51"
-					(reference "#PWR047")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -9924,7 +9809,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 134.62 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -9983,7 +9868,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0668cecc-b3a3-44fa-b2d9-8f8c1b83880d")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR056"
 			(at 100.33 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -10042,7 +9927,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/45e1da5b-d52f-4e94-b563-4995febadb51"
-					(reference "#PWR055")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -10060,7 +9945,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "087be358-8595-499a-ac26-07b065029ee2")
-		(property "Reference" "R20"
+		(property "Reference" "R21"
 			(at 294.64 118.11 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10082,7 +9967,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 295.91 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -10124,7 +10009,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/45e1da5b-d52f-4e94-b563-4995febadb51"
-					(reference "R20")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -10142,7 +10027,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "08b5b8e5-701f-463e-87cd-a199f48e4c71")
-		(property "Reference" "R16"
+		(property "Reference" "R17"
 			(at 294.64 110.49 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10164,7 +10049,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 295.91 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -10206,7 +10091,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/45e1da5b-d52f-4e94-b563-4995febadb51"
-					(reference "R16")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -10224,7 +10109,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "08ef7867-5649-42ba-b515-c2a1c9c3c5f7")
-		(property "Reference" "R17"
+		(property "Reference" "R18"
 			(at 294.64 113.03 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10246,7 +10131,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 295.91 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -10288,7 +10173,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/45e1da5b-d52f-4e94-b563-4995febadb51"
-					(reference "R17")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -10326,7 +10211,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "project_footprints:W25Q64JWUUIQ"
 			(at 184.15 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -10403,7 +10288,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0cf55bda-4990-43c8-ba5a-9ed47f8eabd6")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR045"
 			(at 86.36 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -10463,7 +10348,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/45e1da5b-d52f-4e94-b563-4995febadb51"
-					(reference "#PWR044")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -10480,7 +10365,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2101a268-ea45-4525-822c-92f40a749536")
-		(property "Reference" "R21"
+		(property "Reference" "R22"
 			(at 152.654 142.24 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10502,7 +10387,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 151.13 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -10544,7 +10429,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/45e1da5b-d52f-4e94-b563-4995febadb51"
-					(reference "R21")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -10561,7 +10446,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "231fc2be-2b5d-4e74-9047-e622e548f215")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR057"
 			(at 124.46 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -10621,7 +10506,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/45e1da5b-d52f-4e94-b563-4995febadb51"
-					(reference "#PWR056")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -10717,7 +10602,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "26255520-cdeb-4ccd-9fec-9b864d654551")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR049"
 			(at 184.15 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -10777,7 +10662,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/45e1da5b-d52f-4e94-b563-4995febadb51"
-					(reference "#PWR048")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -10794,7 +10679,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "27d6cdee-f593-4d67-8b26-5b2fa8fe3fcf")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR040"
 			(at 129.54 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -10854,7 +10739,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/45e1da5b-d52f-4e94-b563-4995febadb51"
-					(reference "#PWR039")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -10872,7 +10757,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "28319e34-32f5-4361-88e5-67261d11d132")
-		(property "Reference" "R8"
+		(property "Reference" "R9"
 			(at 294.64 95.25 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10894,7 +10779,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 295.91 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -10936,7 +10821,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/45e1da5b-d52f-4e94-b563-4995febadb51"
-					(reference "R8")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -11035,7 +10920,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2f28f977-168c-4912-9784-5fc293b3e9d6")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR042"
 			(at 184.15 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -11095,7 +10980,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/45e1da5b-d52f-4e94-b563-4995febadb51"
-					(reference "#PWR041")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -11113,7 +10998,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3092d9fc-8006-47d3-8200-38fb6c881696")
-		(property "Reference" "R10"
+		(property "Reference" "R11"
 			(at 294.64 100.33 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11135,7 +11020,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 295.91 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -11177,114 +11062,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/45e1da5b-d52f-4e94-b563-4995febadb51"
-					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "-- project_symbols --:USB C")
-		(at 67.31 113.03 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "4081f995-de45-4b39-b365-e92eae33be11")
-		(property "Reference" "J4"
-			(at 67.31 92.71 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GSB1C41110SSHR"
-			(at 67.31 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "-- project_footprints --:USB_C"
-			(at 71.12 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 71.12 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 67.31 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "B1_A12"
-			(uuid "6f5e9852-67c9-4e3e-9d9a-96619dc9436f")
-		)
-		(pin "B4_A9"
-			(uuid "1798c069-2c32-4397-b536-1448b6cae4c3")
-		)
-		(pin "A1_B12"
-			(uuid "2bcdea4c-e1ae-4cbd-addb-3f88717931d7")
-		)
-		(pin "A6"
-			(uuid "ad63c2ab-545b-47ec-84f6-f3a994686e80")
-		)
-		(pin "A5"
-			(uuid "40bba7b1-bae5-4a9f-a53b-2b438e152552")
-		)
-		(pin "B5"
-			(uuid "d8941e75-1d71-49fa-a68c-9245914776c1")
-		)
-		(pin "B6"
-			(uuid "dcbea3c5-e3d4-48a5-bfe2-f87f02f9b2f5")
-		)
-		(pin "S1"
-			(uuid "5255be52-de71-4945-bfe3-a6fb29b5ea04")
-		)
-		(pin "A4_B9"
-			(uuid "fde0c154-2f7c-42eb-9f5e-d04886d97d6d")
-		)
-		(pin "A7"
-			(uuid "21739918-2268-4030-be83-f25a05d22e4a")
-		)
-		(pin "B7"
-			(uuid "845cd2ee-9390-4a87-b61d-a470c67c6eeb")
-		)
-		(instances
-			(project "DEV-G2-NANO"
-				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/45e1da5b-d52f-4e94-b563-4995febadb51"
-					(reference "J4")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -11301,7 +11079,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4553e8c5-ad86-474e-bf22-20f7fc6ac7a9")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR054"
 			(at 82.55 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -11361,7 +11139,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/45e1da5b-d52f-4e94-b563-4995febadb51"
-					(reference "#PWR053")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -11378,7 +11156,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "480ee829-5601-4db3-9904-34c73743e66b")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR052"
 			(at 289.56 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -11438,7 +11216,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/45e1da5b-d52f-4e94-b563-4995febadb51"
-					(reference "#PWR051")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -11477,7 +11255,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm"
+		(property "Footprint" "project_footprints:MKL26Z128VFM4"
 			(at 38.1 100.584 0)
 			(hide yes)
 			(show_name no)
@@ -11649,7 +11427,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "HIC_SWD"
+		(property "Value" ""
 			(at 90.17 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -11661,7 +11439,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "project_footprints:TestPoints-3"
 			(at 92.71 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -11723,7 +11501,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5c27fe6e-1df0-4d75-a57a-76300d97d1e2")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR051"
 			(at 303.53 127 0)
 			(hide yes)
 			(show_name no)
@@ -11783,7 +11561,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/45e1da5b-d52f-4e94-b563-4995febadb51"
-					(reference "#PWR050")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -11801,7 +11579,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6183f83f-2cf8-40de-9005-3e25808d22c7")
-		(property "Reference" "R14"
+		(property "Reference" "R15"
 			(at 294.64 105.41 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11823,7 +11601,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 295.91 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -11865,7 +11643,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/45e1da5b-d52f-4e94-b563-4995febadb51"
-					(reference "R14")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -11882,7 +11660,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "73e58a09-7cd9-4042-81b6-58dc99dcdb17")
-		(property "Reference" "R11"
+		(property "Reference" "R12"
 			(at 87.376 101.6 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11904,7 +11682,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 88.9 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -11946,7 +11724,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/45e1da5b-d52f-4e94-b563-4995febadb51"
-					(reference "R11")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -11964,7 +11742,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "760a35db-2bab-4320-bb88-e52ce3515299")
-		(property "Reference" "R18"
+		(property "Reference" "R19"
 			(at 294.64 115.57 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11986,7 +11764,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 295.91 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -12028,7 +11806,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/45e1da5b-d52f-4e94-b563-4995febadb51"
-					(reference "R18")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -12045,7 +11823,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7c420dfd-0053-45bb-9718-3adeabe9f961")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR046"
 			(at 120.65 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -12105,7 +11883,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/45e1da5b-d52f-4e94-b563-4995febadb51"
-					(reference "#PWR045")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -12122,7 +11900,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "895f8280-6ee2-40bc-9153-eaeec35a1836")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR053"
 			(at 67.31 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -12181,7 +11959,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/45e1da5b-d52f-4e94-b563-4995febadb51"
-					(reference "#PWR052")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -12280,7 +12058,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8de61e20-45ad-4486-ac38-c724239be2a7")
-		(property "Reference" "R13"
+		(property "Reference" "R14"
 			(at 87.376 106.68 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12302,7 +12080,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 88.9 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -12344,7 +12122,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/45e1da5b-d52f-4e94-b563-4995febadb51"
-					(reference "R13")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -12361,7 +12139,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8e2f09d4-09eb-401e-9d09-0c1af113d1be")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR044"
 			(at 129.54 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -12421,7 +12199,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/45e1da5b-d52f-4e94-b563-4995febadb51"
-					(reference "#PWR043")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -12438,7 +12216,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a6d625fb-9b2e-4fae-814c-a1200f2805fa")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR043"
 			(at 114.3 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -12498,7 +12276,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/45e1da5b-d52f-4e94-b563-4995febadb51"
-					(reference "#PWR042")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -12516,7 +12294,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "aa28f3ee-5978-4930-8ec6-7b144bf222b4")
-		(property "Reference" "R9"
+		(property "Reference" "R10"
 			(at 294.64 97.79 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12538,7 +12316,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 295.91 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -12580,7 +12358,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/45e1da5b-d52f-4e94-b563-4995febadb51"
-					(reference "R9")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -12597,7 +12375,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "abf804e6-8d73-4102-b38d-7d2e35838287")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR055"
 			(at 151.13 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -12657,7 +12435,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/45e1da5b-d52f-4e94-b563-4995febadb51"
-					(reference "#PWR054")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -12675,7 +12453,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b41b23b4-51a6-4fc3-8a12-a61e7c8971f6")
-		(property "Reference" "R7"
+		(property "Reference" "R8"
 			(at 294.64 92.71 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12697,7 +12475,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 295.91 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -12739,7 +12517,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/45e1da5b-d52f-4e94-b563-4995febadb51"
-					(reference "R7")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -12756,7 +12534,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b6ae724e-f3bb-448c-a01f-9df76ed23ea9")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR050"
 			(at 151.13 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -12816,7 +12594,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/45e1da5b-d52f-4e94-b563-4995febadb51"
-					(reference "#PWR049")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -12833,7 +12611,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bd5afe20-241f-4e22-81d7-5e315869e557")
-		(property "Reference" "R19"
+		(property "Reference" "R20"
 			(at 152.654 119.38 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12855,7 +12633,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 151.13 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -12897,7 +12675,114 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/45e1da5b-d52f-4e94-b563-4995febadb51"
-					(reference "R19")
+					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "project_symbols:USB-C")
+		(at 57.15 95.25 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "beb2458e-8d04-49b3-927f-b4f8ec2e8367")
+		(property "Reference" "J4"
+			(at 67.31 92.71 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 57.15 95.25 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "project_footprints:UJ20-C-H-G-SMT-5-P16"
+			(at 57.15 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 57.15 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "A6"
+			(uuid "3ac0e188-0731-478b-a3a5-64d2590b0933")
+		)
+		(pin "B6"
+			(uuid "1106a710-b7f0-4af1-89f7-55b1fd7eab55")
+		)
+		(pin "A5"
+			(uuid "d3be9a47-a085-475d-9577-75ddd411e6da")
+		)
+		(pin "A1_B12"
+			(uuid "918eda35-a006-414c-ae31-0b37b1ce62bc")
+		)
+		(pin "B1_A12"
+			(uuid "f84fa37f-9f49-4a2e-bf0c-d94581a04e68")
+		)
+		(pin "A4_B9"
+			(uuid "1b685541-f794-4644-8c98-d580a4880d31")
+		)
+		(pin "B7"
+			(uuid "61d9b414-d978-439e-a265-cb5522ee4b17")
+		)
+		(pin "A7"
+			(uuid "74de1373-eaa5-4c6d-859f-e8483065dc0b")
+		)
+		(pin "B5"
+			(uuid "4213c2b4-2ed1-46ab-be5a-2db879679e36")
+		)
+		(pin "B4_A9"
+			(uuid "08435a09-8c8e-4455-b615-711d2c39484b")
+		)
+		(pin "S1"
+			(uuid "5a56df12-478e-4c75-ab16-db58f617148a")
+		)
+		(instances
+			(project "DEV-G2-NANO"
+				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/45e1da5b-d52f-4e94-b563-4995febadb51"
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -12914,7 +12799,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c0a453e3-3cd2-4475-a321-f666d5000e80")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR047"
 			(at 127 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -12974,7 +12859,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/45e1da5b-d52f-4e94-b563-4995febadb51"
-					(reference "#PWR046")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -13011,7 +12896,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_BGA:MAPBGA-289_14x14mm_Layout17x17_P0.8mm"
+		(property "Footprint" "project_footprints:MIMXRT1171DVMAB"
 			(at 208.28 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -13953,7 +13838,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dbef96a1-15f1-46ef-bb74-13ad79b478a3")
-		(property "Reference" "R15"
+		(property "Reference" "R16"
 			(at 294.64 107.95 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13975,7 +13860,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 295.91 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -14017,7 +13902,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/45e1da5b-d52f-4e94-b563-4995febadb51"
-					(reference "R15")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -14114,7 +13999,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "de92c6cf-7493-47e4-a831-b30f652d3cbc")
-		(property "Reference" "R12"
+		(property "Reference" "R13"
 			(at 294.64 102.87 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14136,7 +14021,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 295.91 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -14178,7 +14063,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/45e1da5b-d52f-4e94-b563-4995febadb51"
-					(reference "R12")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -14218,7 +14103,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 170.18 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -14299,7 +14184,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 124.46 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -14380,7 +14265,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 114.3 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -14440,7 +14325,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f037ccbe-e11d-4a81-9b46-c14b921dc51e")
-		(property "Reference" "R6"
+		(property "Reference" "R7"
 			(at 294.64 90.17 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14462,7 +14347,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 295.91 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -14504,7 +14389,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/45e1da5b-d52f-4e94-b563-4995febadb51"
-					(reference "R6")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -14521,7 +14406,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fdab4b90-52b4-47f8-b9f6-805ecacc627d")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR041"
 			(at 114.3 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -14581,7 +14466,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/45e1da5b-d52f-4e94-b563-4995febadb51"
-					(reference "#PWR040")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)

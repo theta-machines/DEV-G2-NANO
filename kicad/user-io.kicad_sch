@@ -15065,7 +15065,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "project_footprints:RTMC-G2-4IQ48"
 			(at 177.8 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -15284,7 +15284,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 234.95 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -15343,7 +15343,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0b1e4f21-5e54-4aaf-bd16-16eb8ef1a2dd")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR032"
 			(at 269.24 195.58 0)
 			(hide yes)
 			(show_name no)
@@ -15403,7 +15403,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/6621ad73-535c-4bcc-996a-e9110ae66d56"
-					(reference "#PWR031")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -15431,7 +15431,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x30"
+		(property "Value" ""
 			(at 90.17 237.998 0)
 			(hide yes)
 			(show_name no)
@@ -15442,7 +15442,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "project_footprints:Header-1x30"
 			(at 90.17 194.31 0)
 			(hide yes)
 			(show_name no)
@@ -15605,7 +15605,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "project_footprints:LSM6DSV"
 			(at 177.8 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -15878,7 +15878,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 240.03 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -15959,7 +15959,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 274.32 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -16018,7 +16018,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "103569e8-0483-4f24-b4b7-ab6dd3f4936d")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR036"
 			(at 172.72 223.52 0)
 			(hide yes)
 			(show_name no)
@@ -16078,7 +16078,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/6621ad73-535c-4bcc-996a-e9110ae66d56"
-					(reference "#PWR035")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -16095,7 +16095,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "106a6ce0-c0bb-4f90-804f-8f49d9c0520d")
-		(property "Reference" "R5"
+		(property "Reference" "R6"
 			(at 234.95 232.664 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16117,7 +16117,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 233.68 233.68 0)
 			(hide yes)
 			(show_name no)
@@ -16159,7 +16159,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/6621ad73-535c-4bcc-996a-e9110ae66d56"
-					(reference "R5")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -16512,7 +16512,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 243.84 212.09 0)
 			(hide yes)
 			(show_name no)
@@ -16594,7 +16594,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 232.41 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -16675,7 +16675,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 269.24 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -16735,7 +16735,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "229299ba-eb26-40ba-9b90-a8bfeee4eb82")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR028"
 			(at 228.6 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -16795,7 +16795,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/6621ad73-535c-4bcc-996a-e9110ae66d56"
-					(reference "#PWR027")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -16813,7 +16813,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "247018ac-7ca0-4032-8ca3-09889d98a13c")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR039"
 			(at 196.85 254 0)
 			(hide yes)
 			(show_name no)
@@ -16873,7 +16873,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/6621ad73-535c-4bcc-996a-e9110ae66d56"
-					(reference "#PWR038")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -17066,7 +17066,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 229.87 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -17226,7 +17226,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 242.57 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -17387,7 +17387,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "project_footprints:Header-1x04"
 			(at 101.6 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -17452,7 +17452,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3b2a4883-23e6-400e-899e-fd1e63dc04d7")
-		(property "Reference" "R4"
+		(property "Reference" "R5"
 			(at 171.196 221.234 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17474,7 +17474,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 172.72 222.25 0)
 			(hide yes)
 			(show_name no)
@@ -17516,7 +17516,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/6621ad73-535c-4bcc-996a-e9110ae66d56"
-					(reference "R4")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -17556,7 +17556,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 228.6 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -17637,7 +17637,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 213.36 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -17696,7 +17696,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "47fb6f8b-2aa9-4c10-b0d4-70081dbb5cd1")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR031"
 			(at 269.24 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -17756,7 +17756,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/6621ad73-535c-4bcc-996a-e9110ae66d56"
-					(reference "#PWR030")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -17774,7 +17774,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4889b908-46aa-4b3b-b816-39b1e069a52f")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR037"
 			(at 233.68 234.95 0)
 			(hide yes)
 			(show_name no)
@@ -17834,7 +17834,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/6621ad73-535c-4bcc-996a-e9110ae66d56"
-					(reference "#PWR036")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -17852,7 +17852,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "494094c0-a7b2-4ab7-96f2-7c70577bc651")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR033"
 			(at 242.57 199.39 0)
 			(hide yes)
 			(show_name no)
@@ -17912,7 +17912,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/6621ad73-535c-4bcc-996a-e9110ae66d56"
-					(reference "#PWR032")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -17951,7 +17951,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 264.16 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -18010,7 +18010,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "50994e44-6729-4106-a905-9e498be8f5b5")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR038"
 			(at 161.29 248.92 0)
 			(hide yes)
 			(show_name no)
@@ -18070,7 +18070,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/6621ad73-535c-4bcc-996a-e9110ae66d56"
-					(reference "#PWR037")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -18263,7 +18263,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 105.41 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -18344,7 +18344,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 223.52 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -18425,7 +18425,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 284.48 212.09 0)
 			(hide yes)
 			(show_name no)
@@ -18719,7 +18719,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "67915a50-a185-4334-8bcf-0a1a43cd9e44")
-		(property "Reference" "#PWR0106"
+		(property "Reference" "#PWR027"
 			(at 165.1 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -18779,7 +18779,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/6621ad73-535c-4bcc-996a-e9110ae66d56"
-					(reference "#PWR0106")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -18896,7 +18896,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 294.64 212.09 0)
 			(hide yes)
 			(show_name no)
@@ -18977,7 +18977,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 264.16 212.09 0)
 			(hide yes)
 			(show_name no)
@@ -19058,7 +19058,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 254 212.09 0)
 			(hide yes)
 			(show_name no)
@@ -19139,7 +19139,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 259.08 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -19220,7 +19220,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 279.4 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -19280,7 +19280,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "836e4ccf-808f-4dfa-bf62-3eb9c8563793")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR029"
 			(at 228.6 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -19340,7 +19340,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/6621ad73-535c-4bcc-996a-e9110ae66d56"
-					(reference "#PWR028")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -19459,7 +19459,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "project_footprints:LIS2MDL"
 			(at 177.8 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -19627,7 +19627,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "51kΩ"
+		(property "Value" "10kΩ"
 			(at 171.196 94.234 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19638,7 +19638,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 172.72 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -19719,7 +19719,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 220.98 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -19856,7 +19856,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a64606e8-05ae-4d5d-8417-e38e8c8606d8")
-		(property "Reference" "R27"
+		(property "Reference" "R4"
 			(at 166.37 169.164 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19878,7 +19878,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 165.1 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -19920,7 +19920,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/6621ad73-535c-4bcc-996a-e9110ae66d56"
-					(reference "R27")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -19959,7 +19959,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 274.32 212.09 0)
 			(hide yes)
 			(show_name no)
@@ -20357,7 +20357,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 100.33 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -20449,7 +20449,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 224.79 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -20530,7 +20530,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 233.68 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -20609,7 +20609,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_BGA:MAPBGA-289_14x14mm_Layout17x17_P0.8mm"
+		(property "Footprint" "project_footprints:MIMXRT1171DVMAB"
 			(at 114.3 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -21776,7 +21776,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c4207b34-cce0-4f20-a3e3-d53e4c9b6263")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR030"
 			(at 242.57 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -21836,7 +21836,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/6621ad73-535c-4bcc-996a-e9110ae66d56"
-					(reference "#PWR029")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -21864,7 +21864,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x30"
+		(property "Value" ""
 			(at 90.17 159.258 0)
 			(hide yes)
 			(show_name no)
@@ -21875,7 +21875,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "project_footprints:Header-1x30"
 			(at 90.17 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -22271,7 +22271,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 210.82 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -22418,7 +22418,7 @@
 				)
 			)
 		)
-		(property "Value" "???"
+		(property "Value" "2.2kΩ"
 			(at 106.68 72.644 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22428,7 +22428,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 106.68 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -22509,7 +22509,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 245.11 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -22647,7 +22647,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e8bff92f-8a15-4c0f-98f1-27cf6b494b07")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR035"
 			(at 269.24 223.52 0)
 			(hide yes)
 			(show_name no)
@@ -22707,7 +22707,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/6621ad73-535c-4bcc-996a-e9110ae66d56"
-					(reference "#PWR034")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -23072,7 +23072,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 269.24 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -23285,7 +23285,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fe8cffae-807b-4703-bb7c-9c0a9a88e59d")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR034"
 			(at 269.24 210.82 0)
 			(hide yes)
 			(show_name no)
@@ -23345,7 +23345,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/6621ad73-535c-4bcc-996a-e9110ae66d56"
-					(reference "#PWR033")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)

@@ -11417,7 +11417,7 @@
 		(dnp no)
 		(uuid "54232875-4399-45bb-88fc-fddde09b908d")
 		(property "Reference" "J5"
-			(at 90.424 123.19 0)
+			(at 90.678 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11427,9 +11427,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" ""
-			(at 90.17 124.46 0)
-			(hide yes)
+		(property "Value" "HIC SWD"
+			(at 90.678 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12703,8 +12702,9 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "USB C"
 			(at 57.15 95.25 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

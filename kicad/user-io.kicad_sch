@@ -15422,24 +15422,25 @@
 		(dnp no)
 		(uuid "0e615535-7374-4b15-bd58-72b3a17d4254")
 		(property "Reference" "J3"
-			(at 86.36 194.31 0)
+			(at 86.36 193.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" ""
-			(at 90.17 237.998 0)
-			(hide yes)
+		(property "Value" "Upper Bank"
+			(at 86.36 195.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "project_footprints:Header-1x30"
@@ -17365,7 +17366,7 @@
 		(dnp no)
 		(uuid "39120a34-57a6-41b4-b8bd-540ed4c3d09f")
 		(property "Reference" "J1"
-			(at 99.06 40.64 0)
+			(at 99.06 39.37 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17377,7 +17378,6 @@
 		)
 		(property "Value" "USB1"
 			(at 99.06 41.9099 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21855,24 +21855,25 @@
 		(dnp no)
 		(uuid "c427fc0e-256f-411d-bddf-23f59f0aeb1c")
 		(property "Reference" "J2"
-			(at 86.36 115.57 0)
+			(at 87.63 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" ""
-			(at 90.17 159.258 0)
-			(hide yes)
+		(property "Value" "Lower Bank"
+			(at 87.63 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "project_footprints:Header-1x30"

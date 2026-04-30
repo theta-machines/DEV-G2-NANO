@@ -522,7 +522,7 @@
       "method": 0,
       "sort_order": 1
     },
-    "bom_export_filename": "${PROJECTNAME}.csv",
+    "bom_export_filename": "..\\DEV-G2-NANO.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -584,12 +584,30 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -634,7 +652,7 @@
         "uuid": "b6656e4d-fdee-4b90-a905-7068c060191f"
       }
     ],
-    "used_designators": "L1-4,D1-3,#PWR1-112,C1-99,R1-27,J1-6,SW1,U1-9,Y1-4",
+    "used_designators": "C1-87,C100-117,L1-4,D1-3,#PWR1-105,#PWR113-118,R1-27,J1-6,SW1,U1-9,Y1-4",
     "variants": []
   },
   "sheets": [

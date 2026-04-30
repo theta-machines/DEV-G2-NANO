@@ -2586,7 +2586,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 15.24 5.08 270)
+				(at 17.78 5.08 270)
 				(length 5.08)
 				(name "ADC_VREFH"
 					(effects

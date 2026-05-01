@@ -2268,7 +2268,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 38.1 5.08 270)
+				(at 45.72 5.08 270)
 				(length 5.08)
 				(name "NVCC_EMC1"
 					(effects
@@ -2286,7 +2286,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 38.1 5.08 270)
+				(at 45.72 5.08 270)
 				(length 5.08)
 				(hide yes)
 				(name "NVCC_EMC1"
@@ -2417,7 +2417,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 38.1 5.08 270)
+				(at 45.72 5.08 270)
 				(length 5.08)
 				(hide yes)
 				(name "NVCC_EMC1"
@@ -2531,7 +2531,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 43.18 5.08 270)
+				(at 38.1 5.08 270)
 				(length 5.08)
 				(name "VDD_USB_3P3"
 					(effects
@@ -2848,7 +2848,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 48.26 5.08 270)
+				(at 43.18 5.08 270)
 				(length 5.08)
 				(name "VDDA_ADC_3P3"
 					(effects
@@ -3237,7 +3237,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 40.64 5.08 270)
+				(at 48.26 5.08 270)
 				(length 5.08)
 				(name "NVCC_GPIO"
 					(effects
@@ -3458,7 +3458,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 45.72 5.08 270)
+				(at 40.64 5.08 270)
 				(length 5.08)
 				(name "VDD_LPSR_IN"
 					(effects

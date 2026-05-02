@@ -8598,6 +8598,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "TODO: ESD diodes?"
+		(exclude_from_sim no)
+		(at 82.296 135.636 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "250c0895-b69c-436d-8812-3c655f3af471")
+	)
 	(junction
 		(at 78.74 127)
 		(diameter 0)
@@ -11824,7 +11834,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm"
+		(property "Footprint" "project_footprints:MKL26Z128VFM4"
 			(at 48.26 114.554 0)
 			(hide yes)
 			(show_name no)
@@ -12328,7 +12338,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 110.49 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -13542,7 +13552,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
 			(at 81.28 109.982 90)
 			(hide yes)
 			(show_name no)
@@ -15230,7 +15240,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 96.52 110.49 0)
 			(hide yes)
 			(show_name no)

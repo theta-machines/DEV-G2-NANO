@@ -17292,7 +17292,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+		(property "Footprint" "project_footprints:TPD3S044"
 			(at 81.28 16.51 0)
 			(hide yes)
 			(show_name no)
@@ -17935,7 +17935,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 109.22 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -18264,7 +18264,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 92.71 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -20494,7 +20494,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 203.2 153.67 0)
 			(hide yes)
 			(show_name no)

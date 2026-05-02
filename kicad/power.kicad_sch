@@ -10060,7 +10060,7 @@
 		(uuid "586efb3b-a2d1-45c0-9931-53ef503a7757")
 	)
 	(junction
-		(at 93.98 30.48)
+		(at 93.98 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5d207519-5b23-4c6e-99a3-a6828c0763db")
@@ -10132,7 +10132,7 @@
 		(uuid "79dc9d77-df2b-4ee7-a715-c352f96598f5")
 	)
 	(junction
-		(at 124.46 30.48)
+		(at 124.46 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7da192e4-ce47-4392-a3b7-2e4df484a730")
@@ -10469,7 +10469,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 30.48) (xy 124.46 31.75)
+			(xy 124.46 33.02) (xy 124.46 34.29)
 		)
 		(stroke
 			(width 0)
@@ -10639,7 +10639,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 52.07) (xy 100.33 30.48)
+			(xy 100.33 52.07) (xy 100.33 33.02)
 		)
 		(stroke
 			(width 0)
@@ -10719,7 +10719,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 30.48) (xy 93.98 30.48)
+			(xy 100.33 33.02) (xy 93.98 33.02)
 		)
 		(stroke
 			(width 0)
@@ -10909,7 +10909,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 30.48) (xy 124.46 30.48)
+			(xy 123.19 33.02) (xy 124.46 33.02)
 		)
 		(stroke
 			(width 0)
@@ -11029,7 +11029,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 30.48) (xy 82.55 30.48)
+			(xy 87.63 33.02) (xy 82.55 33.02)
 		)
 		(stroke
 			(width 0)
@@ -11079,7 +11079,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 30.48) (xy 114.3 29.21)
+			(xy 114.3 33.02) (xy 114.3 31.75)
 		)
 		(stroke
 			(width 0)
@@ -11599,7 +11599,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 30.48) (xy 114.3 30.48)
+			(xy 118.11 33.02) (xy 114.3 33.02)
 		)
 		(stroke
 			(width 0)
@@ -12039,7 +12039,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 52.07) (xy 130.81 30.48)
+			(xy 130.81 52.07) (xy 130.81 33.02)
 		)
 		(stroke
 			(width 0)
@@ -12049,7 +12049,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 30.48) (xy 124.46 30.48)
+			(xy 130.81 33.02) (xy 124.46 33.02)
 		)
 		(stroke
 			(width 0)
@@ -12089,7 +12089,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 30.48) (xy 82.55 29.21)
+			(xy 82.55 33.02) (xy 82.55 31.75)
 		)
 		(stroke
 			(width 0)
@@ -12189,7 +12189,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 30.48) (xy 93.98 31.75)
+			(xy 93.98 33.02) (xy 93.98 34.29)
 		)
 		(stroke
 			(width 0)
@@ -12579,16 +12579,6 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 49.53) (xy 95.25 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2a04fcc-4be0-4c23-ac3c-1f8cd6164b53")
-	)
-	(wire
-		(pts
 			(xy 264.16 109.22) (xy 274.32 109.22)
 		)
 		(stroke
@@ -12959,7 +12949,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 30.48) (xy 93.98 30.48)
+			(xy 92.71 33.02) (xy 93.98 33.02)
 		)
 		(stroke
 			(width 0)
@@ -13317,7 +13307,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "07d6cf03-4f53-4072-964e-e5f3d13ce3f2")
-		(property "Reference" "#PWR070"
+		(property "Reference" "#PWR069"
 			(at 104.14 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -13377,7 +13367,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/c9cb6ef2-a54b-4b8b-8190-a2fee5ca7114"
-					(reference "#PWR070")
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -13652,7 +13642,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 218.44 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -13702,7 +13692,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 124.46 36.83 0)
+		(at 124.46 39.37 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13712,7 +13702,7 @@
 		(dnp no)
 		(uuid "19bd49ee-662c-4010-99c6-e33a9d90af8a")
 		(property "Reference" "#PWR066"
-			(at 124.46 43.18 0)
+			(at 124.46 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13723,7 +13713,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 124.46 40.64 0)
+			(at 124.46 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13733,7 +13723,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 124.46 36.83 0)
+			(at 124.46 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13744,7 +13734,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 36.83 0)
+			(at 124.46 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13755,7 +13745,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 124.46 36.83 0)
+			(at 124.46 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14048,7 +14038,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 191.77 203.2 0)
 			(hide yes)
 			(show_name no)
@@ -14206,7 +14196,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 203.2 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -14286,7 +14276,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "project_footprints:BAT54C"
 			(at 147.955 40.005 0)
 			(hide yes)
 			(show_name no)
@@ -14371,7 +14361,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 73.66 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -14502,7 +14492,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 93.98 36.83 0)
+		(at 93.98 39.37 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14512,7 +14502,7 @@
 		(dnp no)
 		(uuid "26885fa2-dc40-4d5e-8f5b-e612faa82ec5")
 		(property "Reference" "#PWR065"
-			(at 93.98 43.18 0)
+			(at 93.98 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14523,7 +14513,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 93.98 40.64 0)
+			(at 93.98 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14533,7 +14523,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 93.98 36.83 0)
+			(at 93.98 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14544,7 +14534,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 36.83 0)
+			(at 93.98 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14555,7 +14545,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 93.98 36.83 0)
+			(at 93.98 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14579,7 +14569,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 124.46 34.29 0)
+		(at 124.46 36.83 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14589,17 +14579,6 @@
 		(dnp no)
 		(uuid "269eebb8-24be-4d02-bab1-461d170e58ff")
 		(property "Reference" "C41"
-			(at 126.238 33.02 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1μF"
 			(at 126.238 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14610,8 +14589,19 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 124.46 34.29 0)
+		(property "Value" "1μF"
+			(at 126.238 38.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 124.46 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14622,7 +14612,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 34.29 0)
+			(at 124.46 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14633,7 +14623,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 124.46 34.29 0)
+			(at 124.46 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14768,7 +14758,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 228.6 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -15004,7 +14994,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 269.24 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -15063,7 +15053,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "33cb4819-9571-4b04-b5bf-8d5f00adb90b")
-		(property "Reference" "#PWR072"
+		(property "Reference" "#PWR071"
 			(at 137.16 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -15123,7 +15113,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/c9cb6ef2-a54b-4b8b-8190-a2fee5ca7114"
-					(reference "#PWR072")
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -15476,7 +15466,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 214.63 207.01 0)
 			(hide yes)
 			(show_name no)
@@ -15634,7 +15624,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 228.6 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -15792,7 +15782,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 248.92 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -15873,7 +15863,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 213.36 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -15954,7 +15944,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 243.84 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -16036,7 +16026,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 45.72 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -16588,7 +16578,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 63.5 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -17329,7 +17319,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 264.16 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -17379,7 +17369,7 @@
 	)
 	(symbol
 		(lib_id "power:+1V0")
-		(at 95.25 49.53 0)
+		(at 95.25 52.07 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17388,8 +17378,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "725072ca-4e8a-4319-8ace-aecde573faed")
-		(property "Reference" "#PWR069"
-			(at 95.25 53.34 0)
+		(property "Reference" "#PWR072"
+			(at 95.25 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17400,7 +17390,7 @@
 			)
 		)
 		(property "Value" "V_{DCDC_DIG}"
-			(at 95.25 45.72 0)
+			(at 95.25 48.26 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17410,7 +17400,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 95.25 49.53 0)
+			(at 95.25 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17421,7 +17411,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 95.25 49.53 0)
+			(at 95.25 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17432,7 +17422,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+1V0\""
-			(at 95.25 49.53 0)
+			(at 95.25 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17448,7 +17438,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/c9cb6ef2-a54b-4b8b-8190-a2fee5ca7114"
-					(reference "#PWR069")
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -17487,7 +17477,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 274.32 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -17537,7 +17527,7 @@
 	)
 	(symbol
 		(lib_id "power:+1V0")
-		(at 82.55 29.21 0)
+		(at 82.55 31.75 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17547,7 +17537,7 @@
 		(dnp no)
 		(uuid "77847a62-9746-4a63-bb40-538b117858a2")
 		(property "Reference" "#PWR063"
-			(at 82.55 33.02 0)
+			(at 82.55 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17558,7 +17548,7 @@
 			)
 		)
 		(property "Value" "V_{DCDC_ANA}"
-			(at 82.55 25.4 0)
+			(at 82.55 27.94 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17568,7 +17558,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 82.55 29.21 0)
+			(at 82.55 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17579,7 +17569,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 82.55 29.21 0)
+			(at 82.55 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17590,7 +17580,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+1V0\""
-			(at 82.55 29.21 0)
+			(at 82.55 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17645,7 +17635,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 269.24 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -17726,7 +17716,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 193.04 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -17963,7 +17953,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 228.6 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -18044,7 +18034,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 198.12 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -18285,7 +18275,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 59.69 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -18335,7 +18325,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 93.98 34.29 0)
+		(at 93.98 36.83 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18345,17 +18335,6 @@
 		(dnp no)
 		(uuid "89b390f0-c9d4-4f27-a1d0-59716c0a594f")
 		(property "Reference" "C40"
-			(at 95.758 33.02 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1μF"
 			(at 95.758 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18366,8 +18345,19 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 93.98 34.29 0)
+		(property "Value" "1μF"
+			(at 95.758 38.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 93.98 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18378,7 +18368,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 34.29 0)
+			(at 93.98 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18389,7 +18379,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 93.98 34.29 0)
+			(at 93.98 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18424,9 +18414,18 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8a6d8efd-e681-4452-adde-126cef7e23e9")
 		(property "Reference" "U9"
+			(at 171.45 166.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM66200"
 			(at 171.45 168.91 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18436,17 +18435,7 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 165.1 171.45 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
+		(property "Footprint" "project_footprints:LM66200"
 			(at 165.1 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -18545,7 +18534,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 208.28 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -18626,7 +18615,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 248.92 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -18707,7 +18696,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 238.76 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -18947,7 +18936,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 152.4 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -19186,7 +19175,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 198.12 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -19350,7 +19339,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 49.53 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -19508,7 +19497,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 218.44 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -19589,7 +19578,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_BGA:MAPBGA-289_14x14mm_Layout17x17_P0.8mm"
+		(property "Footprint" "project_footprints:MIMXRT1171DVMAB"
 			(at 92.71 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -20777,7 +20766,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 67.31 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -20858,7 +20847,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 238.76 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -21266,7 +21255,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 259.08 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -21347,7 +21336,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 147.32 228.6 0)
 			(hide yes)
 			(show_name no)
@@ -21506,7 +21495,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 191.77 228.6 0)
 			(hide yes)
 			(show_name no)
@@ -21665,7 +21654,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 259.08 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -21824,7 +21813,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 254 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -21983,7 +21972,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 218.44 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -22222,7 +22211,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 238.76 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -22430,7 +22419,7 @@
 	)
 	(symbol
 		(lib_id "Device:FerriteBead_Small")
-		(at 120.65 30.48 270)
+		(at 120.65 33.02 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -22440,16 +22429,6 @@
 		(dnp no)
 		(uuid "d0974bee-d3ad-45db-b979-f4dcf50b4563")
 		(property "Reference" "FB3"
-			(at 120.65 24.638 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "120Ω"
 			(at 120.65 27.178 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22459,8 +22438,18 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 120.65 28.702 90)
+		(property "Value" "120Ω"
+			(at 120.65 29.718 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
+			(at 120.65 31.242 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22471,7 +22460,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.65 30.48 0)
+			(at 120.65 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22482,7 +22471,7 @@
 			)
 		)
 		(property "Description" "Ferrite bead, small symbol"
-			(at 120.65 30.48 0)
+			(at 120.65 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22590,7 +22579,7 @@
 	)
 	(symbol
 		(lib_id "power:+1V0")
-		(at 114.3 29.21 0)
+		(at 114.3 31.75 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -22600,7 +22589,7 @@
 		(dnp no)
 		(uuid "d49222fb-1943-4580-be28-3142451b003b")
 		(property "Reference" "#PWR064"
-			(at 114.3 33.02 0)
+			(at 114.3 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22611,7 +22600,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 113.538 25.654 0)
+			(at 113.538 28.194 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22621,7 +22610,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 114.3 29.21 0)
+			(at 114.3 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22632,7 +22621,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 29.21 0)
+			(at 114.3 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22643,7 +22632,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+1V0\""
-			(at 114.3 29.21 0)
+			(at 114.3 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22855,7 +22844,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 208.28 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -23246,7 +23235,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 233.68 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -23327,7 +23316,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 223.52 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -23408,7 +23397,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 248.92 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -23612,7 +23601,7 @@
 	)
 	(symbol
 		(lib_id "Device:FerriteBead_Small")
-		(at 90.17 30.48 270)
+		(at 90.17 33.02 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23622,16 +23611,6 @@
 		(dnp no)
 		(uuid "eed786fd-7a70-4c4c-a744-5c1c42a9881c")
 		(property "Reference" "FB2"
-			(at 90.17 24.638 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "120Ω"
 			(at 90.17 27.178 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23641,8 +23620,18 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 90.17 28.702 90)
+		(property "Value" "120Ω"
+			(at 90.17 29.718 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
+			(at 90.17 31.242 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23653,7 +23642,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 30.48 0)
+			(at 90.17 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23664,7 +23653,7 @@
 			)
 		)
 		(property "Description" "Ferrite bead, small symbol"
-			(at 90.17 30.48 0)
+			(at 90.17 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24175,7 +24164,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ffaf71a4-3842-4098-95bd-552b346a9906")
-		(property "Reference" "#PWR071"
+		(property "Reference" "#PWR070"
 			(at 118.11 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -24235,7 +24224,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/c9cb6ef2-a54b-4b8b-8190-a2fee5ca7114"
-					(reference "#PWR071")
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -24274,7 +24263,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 77.47 115.57 0)
 			(hide yes)
 			(show_name no)

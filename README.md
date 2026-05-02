@@ -1,6 +1,8 @@
 # G2 Nano Development Board
 This repository houses the KiCad source files for the G2 Nano microcontroller development board.
 
+![Rendering](images/rendering.png)
+
 The G2 Nano is a high-performance microcontroller development board combining a 1 GHz Arm Cortex-M7 processor with dual-band Wi-Fi, a 9-axis inertial measurement unit, and an on-board closed-loop motion controller.
 
 ## Overview

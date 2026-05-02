@@ -8598,16 +8598,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "TODO: ESD diodes?"
-		(exclude_from_sim no)
-		(at 82.296 135.636 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "250c0895-b69c-436d-8812-3c655f3af471")
-	)
 	(junction
 		(at 78.74 127)
 		(diameter 0)
@@ -10201,7 +10191,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0000dc8f-6b53-4d07-b208-e026e69f7ba7")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR047"
 			(at 90.17 127 0)
 			(hide yes)
 			(show_name no)
@@ -10261,7 +10251,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/45e1da5b-d52f-4e94-b563-4995febadb51"
-					(reference "#PWR052")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -10278,7 +10268,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0651f179-1929-41e6-bf83-1bfad7d63910")
-		(property "Reference" "C34"
+		(property "Reference" "C32"
 			(at 152.908 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10342,7 +10332,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/45e1da5b-d52f-4e94-b563-4995febadb51"
-					(reference "C34")
+					(reference "C32")
 					(unit 1)
 				)
 			)
@@ -10359,7 +10349,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0668cecc-b3a3-44fa-b2d9-8f8c1b83880d")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR056"
 			(at 110.49 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -10418,7 +10408,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/45e1da5b-d52f-4e94-b563-4995febadb51"
-					(reference "#PWR061")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -10435,7 +10425,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0877baeb-1aa8-4744-9abc-1da3dbeb8c62")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR044"
 			(at 96.52 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -10495,7 +10485,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/45e1da5b-d52f-4e94-b563-4995febadb51"
-					(reference "#PWR049")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -10759,7 +10749,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "08f8aeea-caa4-47aa-aa43-fd22a6338540")
-		(property "Reference" "U7"
+		(property "Reference" "U6"
 			(at 203.2 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10839,7 +10829,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/45e1da5b-d52f-4e94-b563-4995febadb51"
-					(reference "U7")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -11024,7 +11014,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "231fc2be-2b5d-4e74-9047-e622e548f215")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR057"
 			(at 134.62 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -11084,7 +11074,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/45e1da5b-d52f-4e94-b563-4995febadb51"
-					(reference "#PWR062")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -11182,7 +11172,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "26255520-cdeb-4ccd-9fec-9b864d654551")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR049"
 			(at 194.31 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -11242,7 +11232,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/45e1da5b-d52f-4e94-b563-4995febadb51"
-					(reference "#PWR054")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -11259,7 +11249,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "27d6cdee-f593-4d67-8b26-5b2fa8fe3fcf")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR040"
 			(at 151.13 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -11319,7 +11309,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/45e1da5b-d52f-4e94-b563-4995febadb51"
-					(reference "#PWR045")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -11418,7 +11408,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2f28f977-168c-4912-9784-5fc293b3e9d6")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR041"
 			(at 194.31 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -11478,7 +11468,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/45e1da5b-d52f-4e94-b563-4995febadb51"
-					(reference "#PWR046")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -11577,7 +11567,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "36fbebf2-d03d-4e8e-a68b-2995b0be33a0")
-		(property "Reference" "C32"
+		(property "Reference" "C30"
 			(at 127.508 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11641,7 +11631,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/45e1da5b-d52f-4e94-b563-4995febadb51"
-					(reference "C32")
+					(reference "C30")
 					(unit 1)
 				)
 			)
@@ -11658,7 +11648,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4553e8c5-ad86-474e-bf22-20f7fc6ac7a9")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR054"
 			(at 92.71 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -11718,7 +11708,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/45e1da5b-d52f-4e94-b563-4995febadb51"
-					(reference "#PWR059")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -11735,7 +11725,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "480ee829-5601-4db3-9904-34c73743e66b")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR052"
 			(at 299.72 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -11795,7 +11785,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/45e1da5b-d52f-4e94-b563-4995febadb51"
-					(reference "#PWR057")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -11812,7 +11802,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4b4c5bca-22e4-49fc-b32c-48185b086d93")
-		(property "Reference" "U8"
+		(property "Reference" "U7"
 			(at 142.24 165.862 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11977,7 +11967,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/45e1da5b-d52f-4e94-b563-4995febadb51"
-					(reference "U8")
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -11995,7 +11985,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "54232875-4399-45bb-88fc-fddde09b908d")
-		(property "Reference" "J5"
+		(property "Reference" "J4"
 			(at 100.838 135.89 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12062,7 +12052,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/45e1da5b-d52f-4e94-b563-4995febadb51"
-					(reference "J5")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -12079,7 +12069,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "55f84c5e-bfaf-4f53-bb20-678ce7df0b5b")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR045"
 			(at 130.81 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -12139,7 +12129,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/45e1da5b-d52f-4e94-b563-4995febadb51"
-					(reference "#PWR050")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -12156,7 +12146,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5c27fe6e-1df0-4d75-a57a-76300d97d1e2")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR051"
 			(at 313.69 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -12216,7 +12206,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/45e1da5b-d52f-4e94-b563-4995febadb51"
-					(reference "#PWR056")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -12316,7 +12306,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6b55945a-dcf9-473f-8881-23e3504a0247")
-		(property "Reference" "C39"
+		(property "Reference" "C37"
 			(at 108.712 161.29 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12380,7 +12370,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/45e1da5b-d52f-4e94-b563-4995febadb51"
-					(reference "C39")
+					(reference "C37")
 					(unit 1)
 				)
 			)
@@ -12560,7 +12550,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "821938f1-52e8-485d-aeb4-bb9b8d722d0e")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR048"
 			(at 96.52 127 0)
 			(hide yes)
 			(show_name no)
@@ -12620,7 +12610,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/45e1da5b-d52f-4e94-b563-4995febadb51"
-					(reference "#PWR053")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -12637,7 +12627,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "895f8280-6ee2-40bc-9153-eaeec35a1836")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR053"
 			(at 59.69 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -12696,7 +12686,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/45e1da5b-d52f-4e94-b563-4995febadb51"
-					(reference "#PWR058")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -12794,7 +12784,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8e2f09d4-09eb-401e-9d09-0c1af113d1be")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR043"
 			(at 151.13 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -12854,7 +12844,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/45e1da5b-d52f-4e94-b563-4995febadb51"
-					(reference "#PWR048")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -12871,7 +12861,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a6d625fb-9b2e-4fae-814c-a1200f2805fa")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR042"
 			(at 120.65 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -12931,7 +12921,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/45e1da5b-d52f-4e94-b563-4995febadb51"
-					(reference "#PWR047")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -13030,7 +13020,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "abf804e6-8d73-4102-b38d-7d2e35838287")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR055"
 			(at 161.29 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -13090,7 +13080,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/45e1da5b-d52f-4e94-b563-4995febadb51"
-					(reference "#PWR060")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -13189,7 +13179,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b6ae724e-f3bb-448c-a01f-9df76ed23ea9")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR050"
 			(at 161.29 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -13249,7 +13239,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/45e1da5b-d52f-4e94-b563-4995febadb51"
-					(reference "#PWR055")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -13348,7 +13338,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "beb2458e-8d04-49b3-927f-b4f8ec2e8367")
-		(property "Reference" "J4"
+		(property "Reference" "J3"
 			(at 59.69 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13438,7 +13428,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/45e1da5b-d52f-4e94-b563-4995febadb51"
-					(reference "J4")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -13455,7 +13445,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c0a453e3-3cd2-4475-a321-f666d5000e80")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR046"
 			(at 137.16 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -13515,7 +13505,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/45e1da5b-d52f-4e94-b563-4995febadb51"
-					(reference "#PWR051")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -13611,7 +13601,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d27cc502-5c42-40fd-9b72-d78522737969")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR039"
 			(at 120.65 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -13671,7 +13661,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/45e1da5b-d52f-4e94-b563-4995febadb51"
-					(reference "#PWR044")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -13688,7 +13678,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d605527c-4798-408f-987b-c72ccd84a938")
-		(property "Reference" "U2"
+		(property "Reference" "U1"
 			(at 257.048 98.044 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14632,7 +14622,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/45e1da5b-d52f-4e94-b563-4995febadb51"
-					(reference "U2")
+					(reference "U1")
 					(unit 2)
 				)
 			)
@@ -14731,7 +14721,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dd96765e-3fe0-45e8-acbe-0386fc7f01d8")
-		(property "Reference" "C37"
+		(property "Reference" "C35"
 			(at 97.536 143.002 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14794,7 +14784,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/45e1da5b-d52f-4e94-b563-4995febadb51"
-					(reference "C37")
+					(reference "C35")
 					(unit 1)
 				)
 			)
@@ -14894,7 +14884,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "deb0637b-1619-4b2d-bdd3-3e221d5f91ef")
-		(property "Reference" "C36"
+		(property "Reference" "C34"
 			(at 177.8 111.7662 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14958,7 +14948,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/45e1da5b-d52f-4e94-b563-4995febadb51"
-					(reference "C36")
+					(reference "C34")
 					(unit 1)
 				)
 			)
@@ -14975,7 +14965,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e16f42ff-a884-41d6-ab25-b7936a06a4b1")
-		(property "Reference" "C33"
+		(property "Reference" "C31"
 			(at 142.748 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15039,7 +15029,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/45e1da5b-d52f-4e94-b563-4995febadb51"
-					(reference "C33")
+					(reference "C31")
 					(unit 1)
 				)
 			)
@@ -15056,7 +15046,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e3b5da71-435d-42bc-81c0-b07023944df8")
-		(property "Reference" "C31"
+		(property "Reference" "C29"
 			(at 117.348 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15120,7 +15110,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/45e1da5b-d52f-4e94-b563-4995febadb51"
-					(reference "C31")
+					(reference "C29")
 					(unit 1)
 				)
 			)
@@ -15138,7 +15128,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e3e1442d-891c-4d6c-96b1-e6476d7686a0")
-		(property "Reference" "C38"
+		(property "Reference" "C36"
 			(at 97.536 154.178 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15201,7 +15191,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/45e1da5b-d52f-4e94-b563-4995febadb51"
-					(reference "C38")
+					(reference "C36")
 					(unit 1)
 				)
 			)
@@ -15381,7 +15371,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f945334e-5688-42db-ae03-9841e29eea84")
-		(property "Reference" "C35"
+		(property "Reference" "C33"
 			(at 163.068 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15445,7 +15435,7 @@
 		(instances
 			(project "DEV-G2-NANO"
 				(path "/b6656e4d-fdee-4b90-a905-7068c060191f/45e1da5b-d52f-4e94-b563-4995febadb51"
-					(reference "C35")
+					(reference "C33")
 					(unit 1)
 				)
 			)

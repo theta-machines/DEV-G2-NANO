@@ -11788,7 +11788,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm"
+		(property "Footprint" "project_footprints:MKL26Z128VFM4"
 			(at 48.26 114.554 0)
 			(hide yes)
 			(show_name no)

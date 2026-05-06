@@ -50,7 +50,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -196,9 +196,7 @@
       "track_widths": [
         0.0,
         0.1,
-        0.127,
-        0.23,
-        0.381
+        0.25
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -237,11 +235,7 @@
         },
         {
           "diameter": 0.5,
-          "drill": 0.2
-        },
-        {
-          "diameter": 0.8,
-          "drill": 0.5
+          "drill": 0.3
         }
       ],
       "zones_allow_external_fillets": false
@@ -521,7 +515,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.127,
+        "track_width": 0.1,
         "tuning_profile": "",
         "via_diameter": 0.25,
         "via_drill": 0.15,
@@ -681,7 +675,7 @@
         "uuid": "b6656e4d-fdee-4b90-a905-7068c060191f"
       }
     ],
-    "used_designators": "",
+    "used_designators": "L1-4,D1-3,#PWR1-107,C1-80,FB1,R1-29,J1-5,SW1,U1-10,Y1-4",
     "variants": []
   },
   "sheets": [

@@ -3,7 +3,7 @@ This repository houses the KiCad source files for the G2 Nano microcontroller de
 
 ![Rendering](images/rendering.png)
 
-The G2 Nano is a high-performance microcontroller development board combining a 1 GHz Arm Cortex-M7 processor with dual-band Wi-Fi, a 9-axis inertial measurement unit, and an on-board closed-loop motion controller.
+The G2 Nano is powered by a record-breaking 1 GHz Arm Cortex-M7 processor, combining the performance of an application processor with real-time determinism. Purpose-built for robotics R&D, the board integrates dual-band Wi-Fi, an inertial measurement unit, and an on-board closed-loop motion controller.
 
 ## Overview
 * This PCB was designed using KiCad 10 and it's standard library of footprints, symbols, and models.
@@ -13,32 +13,33 @@ The G2 Nano is a high-performance microcontroller development board combining a 
 * All custom footprints, symbols, and models are located in the `kicad/project_lib/` directory. The same directory houses the schematic page template.
 
 ## Features
+### Performance
 * 1 GHz Arm Cortex-M7 Microprocessor
 * Double-Precision Floating Point Unit
 * 2 MiB RAM (512 KiB Tightly Coupled)
 * 8 MiB QSPI Flash Memory
-* Dual-band Wi-Fi
+* Cryptographic Acceleration (Including Random Number Generation)
+* Two 32-Channel DMA Engines
+
+### Peripherals
+* Dual-Band Wi-Fi
 * 6-Axis IMU (3-Axis Accelerometer; 3-Axis Gyroscope)
 * 3-Axis Magnetometer
 * 3-Axis Closed-Loop Motion Controller <!-- TODO: provide link to part -->
 * Real-Time Clock (Optionally powered with a coin cell battery)
 * Built-In Hardware Debugger
-* Cryptographic Acceleration (Including Random Number Generation)
-* Two 32-Channel DMA Engines
 
-<!--
-The following features are planned, but their implementation is not yet certain:
+### Digital I/O
+* 40 Digital GPIO
+* 2 CAN/CAN-FD Interfaces
+* 3 I2C Interfaces
+* 2 SPI Interfaces
+* 5 UART Interfaces
 
-* xxx Digital GPIO
-* xxx Independent CAN/CAN-FD Bus Interfaces
-* xxx PWM pins
-* xxx PDM pins (e.g., `PDM_DATA0`)
-* Common Serial Interfaces (xxx UART; xxx SPI; xxx I2C)
-* xxx Analog Inputs
-* xxx Analog Comparators
-* S/PDIF Input and Output (xxx)
-* xxx I2S/TDM Interfaces
--->
+### Analog & Audio
+* 10 Analog Inputs
+* 2 I2S/TDM Interfaces
+* S/PDIF Interface
 
 ## Using This Project
 *This section is an informal summary of the license. For the full terms, see the `LICENSE.txt` file.*

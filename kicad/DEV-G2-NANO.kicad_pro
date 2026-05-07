@@ -533,7 +533,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "../../gerbers/",
+      "plot": "../../manufacturing/",
       "specctra_dsn": "",
       "vrml": ""
     },

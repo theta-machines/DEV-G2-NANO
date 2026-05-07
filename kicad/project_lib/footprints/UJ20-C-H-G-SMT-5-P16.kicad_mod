@@ -190,7 +190,7 @@
 		(uuid "f8becc47-3875-402d-838c-39ff38db0633")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/project_lib/3d_models/private/UJ20-C-H-G-SMT-5-P16.step"
+	(model "${KIPRJMOD}/../../3d_models/UJ20-C-H-G-SMT-5-P16.step"
 		(offset
 			(xyz 0 -4 1.62)
 		)

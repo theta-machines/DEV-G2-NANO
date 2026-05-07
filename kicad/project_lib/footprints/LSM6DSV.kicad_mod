@@ -186,7 +186,7 @@
 		(uuid "c4af3c2c-4787-427e-97f2-e6d24f0e1f0a")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/project_lib/3d_models/private/LSM6DSV.step"
+	(model "${KIPRJMOD}/../../3d_models/LSM6DSV.step"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -148,7 +148,7 @@
 		(uuid "5d570bed-d21f-4b19-b8aa-629369032045")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/project_lib/3d_models/private/SDCL1V4018.step"
+	(model "${KIPRJMOD}/../../3d_models/SDCL1V4018.step"
 		(offset
 			(xyz 0 -0.05999999776 0.01999999925)
 		)

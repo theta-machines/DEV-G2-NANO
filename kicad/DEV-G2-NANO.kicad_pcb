@@ -574,7 +574,7 @@
 			(uuid "16e1b48d-f383-466f-92a8-71a316e139c7")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/project_lib/3d_models/private/W25Q64JWUUIQ.step"
+		(model "${KIPRJMOD}/../../3d_models/W25Q64JWUUIQ.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1322,7 +1322,7 @@
 			(uuid "1ae59d0d-391c-4a75-acd2-8a6c27349a7a")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/project_lib/3d_models/private/LSM6DSV.step"
+		(model "${KIPRJMOD}/../../3d_models/LSM6DSV.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1545,7 +1545,7 @@
 			(uuid "e4d19619-f189-4796-9cfd-f585726e6cbd")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/project_lib/3d_models/private/LIS2MDL.step"
+		(model "${KIPRJMOD}/../../3d_models/LIS2MDL.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2320,7 +2320,7 @@
 			(uuid "4bfeca34-1c65-4463-ab2b-a341d7267f1e")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/project_lib/3d_models/MAYA-W166.step"
+		(model "${KIPRJMOD}/../../3d_models/MAYA-W166.step"
 			(offset
 				(xyz -5.2 -7.35 0.5)
 			)
@@ -5382,7 +5382,7 @@
 			(uuid "0747da5a-5fa7-46f4-b2d9-1019e5570d9b")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/project_lib/3d_models/private/TPS62825.step"
+		(model "${KIPRJMOD}/../../3d_models/TPS62825.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -5625,7 +5625,7 @@
 			(uuid "daea84c1-ee33-4f4a-a8f6-0d3e81ca171d")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/project_lib/3d_models/private/TPS62086.step"
+		(model "${KIPRJMOD}/../../3d_models/TPS62086.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -6482,7 +6482,7 @@
 			(uuid "80871385-a2d6-4d9e-9483-3e565e090455")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/project_lib/3d_models/private/PTS815.step"
+		(model "${KIPRJMOD}/../../3d_models/PTS815.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -6799,7 +6799,7 @@
 			(uuid "d3ee941e-c09b-4de8-9264-0f9c1ba04c30")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/project_lib/3d_models/private/SDCL1V4018.step"
+		(model "${KIPRJMOD}/../../3d_models/SDCL1V4018.step"
 			(offset
 				(xyz 0 -0.05999999776 0.01999999925)
 			)
@@ -10397,7 +10397,7 @@
 			(uuid "ce578335-4772-4418-9332-46357db6c4e5")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/project_lib/3d_models/private/MIMXRT1171DVMAB.stp"
+		(model "${KIPRJMOD}/../../3d_models/MIMXRT1171DVMAB.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -11120,7 +11120,7 @@
 			(uuid "adc04302-f02d-442e-84e3-e399c5dca6f5")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/project_lib/3d_models/private/UJ20-C-H-G-SMT-5-P16.step"
+		(model "${KIPRJMOD}/../../3d_models/UJ20-C-H-G-SMT-5-P16.step"
 			(offset
 				(xyz 0 -4 1.62)
 			)

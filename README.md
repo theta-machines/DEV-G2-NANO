@@ -6,11 +6,11 @@ This repository houses the KiCad source files for the G2 Nano microcontroller de
 The G2 Nano is powered by a record-breaking 1 GHz Arm Cortex-M7 processor, combining the performance of an application processor with real-time determinism. Purpose-built for robotics R&D, the board integrates dual-band Wi-Fi, an inertial measurement unit, and an on-board closed-loop motion controller.
 
 ## Overview
-* This PCB was designed using KiCad 10 and it's standard library of footprints, symbols, and models.
+* This PCB was designed using KiCad 10 and it's standard library of components.
 
 * The KiCad project is contained within the `kicad/` directory and can be opened via the `kicad/DEV-G2-NANO.kicad_pro` file.
 
-* All custom footprints, symbols, and models are located in the `kicad/project_lib/` directory. The same directory houses the schematic page template.
+* All custom symbols and footprints are located in the `kicad/project_lib/` directory. The same directory houses the schematic page template.
 
 ## Features
 ### Performance

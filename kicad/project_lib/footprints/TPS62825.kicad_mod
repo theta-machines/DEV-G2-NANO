@@ -199,7 +199,7 @@
 		(uuid "e598bf87-208b-4074-8073-27087e69a607")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/project_lib/3d_models/private/TPS62825.step"
+	(model "${KIPRJMOD}/../../3d_models/TPS62825.step"
 		(offset
 			(xyz 0 0 0)
 		)

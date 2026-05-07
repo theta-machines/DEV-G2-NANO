@@ -174,7 +174,7 @@
 		(uuid "898dab14-07b4-4aa5-8b30-786f461a6659")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/project_lib/3d_models/private/LIS2MDL.step"
+	(model "${KIPRJMOD}/../../3d_models/LIS2MDL.step"
 		(offset
 			(xyz 0 0 0)
 		)
